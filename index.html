@@ -979,7 +979,12 @@ function updateBindLines() {
   bindCtx.clearRect(0, 0, bindCanvas.width, bindCanvas.height);
   document.querySelectorAll(".marker").forEach(marker => {
     const binds = JSON.parse(marker.dataset.bindIds || "[]");
-    if (marker.style.display === "none" || marker.dataset.dimmed === "1" || marker.parentElement.style.display === "none") return;
+    const parentLayer = marker.parentElement;
+    if (
+      marker.style.display === "none" ||
+      marker.dataset.dimmed === "1" ||
+      !parentLayer || parentLayer.style.display === "none"
+    ) return;
     const x1 = parseFloat(marker.style.left);
     const y1 = parseFloat(marker.style.top);
     binds.forEach(id => {
