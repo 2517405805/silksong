@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>丝之歌互动地图</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.png" type="image/png">
+<style>
+  body {  margin:0;  overflow:hidden;  }
+  #map_background { width:100vw; height:100vh; background:#000; overflow:hidden; position:relative; cursor:auto; }
+  #map { position:absolute; top:0;  left:0; transform-origin: top left;}
+  .marker { position: absolute; width: 96px; height: 96px; transform: translate(-50%, -50%); cursor:pointer;pointer-events: auto; }
+  .marker-layer { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+  .marker-layer .marker { pointer-events: auto; }
+  .marker-menu { position: absolute; background: #fff; border: 1px solid #ccc; padding: 3px 0px; font-size: 14px; z-index: 1000; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+  .marker-menu div { cursor: pointer; padding: 8px 20px; margin: 2px 0; }
+  .marker-menu div:hover { background: #b1b1b1; }
+  #marker-dialog { display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; border:1px solid #ccc; padding:20px; z-index:20000; box-shadow:0 2px 8px rgba(0,0,0,0.3); border-radius:6px; font-size:16px; min-width:300px; min-height: 360px; }
+  .form-row input, .form-row select, .form-row textarea { font-size: 16px; padding: 5px 8px; width: 250px; box-sizing: border-box; }
+  .form-row textarea { height: 0px; font-size: 12px; vertical-align: top; }
+  .form-row { display: flex; align-items:normal; margin-top: 15px; }
+  .form-row label { font-size: 16px; width: 50px; }
+  #marker-type, #marker-name { font-size: 16px; padding: 5px 8px; width: 250px; height: 32px; box-sizing: border-box; }
+  #marker-intro { font-size: 12px; padding: 5px 8px; width: 250px; height: 64px; box-sizing: border-box; vertical-align: top; }
+  #marker-dialog button { font-size:14px; padding:6px 12px; margin-left:8px; }
+  #button1 { position: absolute; top: 10px; left: 10px; z-index: 2000; padding: 6px 12px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc; background-color: #fff; cursor: pointer; }
+  #button2 { position: absolute; top: 10px; left: 105px; z-index: 2000; padding: 6px 12px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc; background-color: #fff; cursor: pointer; }
+  #button3 { position: absolute; top: 10px; left: 200px; z-index: 2000; padding: 6px 12px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc; background-color: #fff; cursor: pointer; }
+  #panel1 { display: none; flex-wrap: wrap; gap: 6px; position: absolute; top: 50px; left: 10px; width: 250px; background-color: rgba(255,255,255,0.9); border: 1px solid #ccc; border-radius: 6px; padding: 10px; z-index: 1000; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+  #panel1 button {  flex: 1 1 45%;  padding: 6px;  font-size: 13px;  height: 34px;  display: flex;  align-items: center;  justify-content: center;  cursor: pointer;  }
+  #marker-search { width: 250px; padding: 6px 12px; font-size: 16px; box-sizing: border-box; z-index: 2000; border: 1px solid #ccc; border-radius: 4px; }
+  #marker-search:focus { outline: none; border-color: #66afe9; box-shadow: 0 0 5px rgba(102,175,233,0.6); }
+  #layer-toggle { display: flex; gap: 6px; width: 100%; }
+  #layer-toggle button { flex: 1;padding: 6px; cursor: pointer; }
+  #type-toggle { display: flex; flex-wrap: wrap; gap: 4px; overflow-y: auto; }
+  #type-toggle button { flex: none; width: 32%; height: 28px; font-size: 12px; padding: 4px; cursor: pointer; box-sizing: border-box;border-radius: 0; border: 1px solid #000000}
+  #tooltip { position: fixed; background-color: rgba(0,0,0,0.8); color: #fff; padding: 6px 10px; border-radius: 4px; font-size: 10px; white-space: pre-line; pointer-events: none; z-index: 10000; display: none; }
+</style>
+</head>
+<body>
+<div id="map_background">
+  <img id="map" src="map.avif" alt="" title="">
+  <canvas id="bind-lines" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:500;"></canvas>
+  <div id="layer1" class="marker-layer"></div>
+  <div id="layer2" class="marker-layer"></div>
+  <div id="layer3" class="marker-layer"></div>
+  <button id="button1"></button>
+  <button id="button2"></button>
+  <button id="button3"></button>
+  <div id="panel1">
+    <div id="search-container" style="width:100%;">
+      <input type="text" id="marker-search" placeholder="搜索">
+    </div>
+    <button id="panel1-btn8">定位结果</button>
+    <button id="panel1-btn9">清除结果</button>
+    <button id="panel1-btn1">清空标记</button>
+    <button id="panel1-btn2">重置标记</button>
+    <button id="panel1-btn3"></button>
+    <button id="panel1-btn10">重置透明</button>
+    <div id="layer-toggle">
+      <button data-layer="1">第一幕</button>
+      <button data-layer="2">第二幕</button>
+      <button data-layer="3">第三幕</button>
+    </div>
+    <button id="panel1-btn7"></button>
+    <div id="type-toggle">
+      <button id="panel1-btn5" style="width: 49%;height: 30px;">全选类型</button>
+      <button id="panel1-btn6" style="width: 49%;height: 30px;">取消全选</button>
+    </div>
+  </div>
+</div>
+<div id="marker-dialog">
+  <div class="form-row">
+    <label for="marker-type">类型：</label>
+    <select id="marker-type"></select>
+  </div>
+  <div class="form-row">
+    <label for="marker-subtype">名：</label>
+    <select id="marker-subtype"></select>
+  </div>
+  <div class="form-row">
+    <label for="marker-name">称：</label>
+    <input id="marker-name" type="text">
+  </div>
+  <div class="form-row">
+    <label for="marker-intro">简介：</label>
+    <textarea id="marker-intro"></textarea>
+  </div>
+  <div class="form-row">
+    <label for="marker-layer">时期：</label>
+    <select id="marker-layer">
+      <option value="1">第一幕</option>
+      <option value="2">第二幕</option>
+      <option value="3">第三幕</option>
+    </select>
+  </div>
+  <div class="form-row">
+    <label for="marker-x">X:</label>
+    <input id="marker-x" type="number" step="0.01">
+  </div>
+  <div class="form-row">
+    <label for="marker-y">Y:</label>
+    <input id="marker-y" type="number" step="0.01">
+  </div>
+  <div style="margin-top:15px; text-align:end;">
+    <button id="dialog-ok">确定</button>
+    <button id="dialog-cancel">取消</button>
+  </div>
+</div>
+<div id="dialog-overlay" style=" display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:19999;"> </div>
+<div id="move-tip" style=" position: fixed; right: 20px; bottom: 20px; background: rgba(0,0,0,0.7); color: #fff; padding: 5px 10px; border-radius: 4px; font-size: 14px; opacity: 0; transition: opacity 0.5s; z-index: 10000; ">正在移动标记 </div>
+<div id="tooltip" class="tooltip"></div>
+<script>
+const mapbackground = document.getElementById('map_background');
+const map = document.getElementById('map');
+const markerTypes = [ "门", "通道", "易碎墙", "水平易碎墙","上箭头","下箭头","左箭头","右箭头","货币","任务物品","长椅","商人","BOSS","NPC","工具","技能","竞技场","灵线轴碎片","铃道","面甲残片","其他","区域地图","跳蚤","委托","纹章","亿境纪念盒","制造金属" ];
+const nameTypes = { "货币": ["甲壳碎片","念珠"], "任务物品": ["苔莓", "虚空聚合物","圣咏戒律","花芯"], "商人": ["制图师"], "BOSS": [""], "NPC": [""], "工具": [""], "技能": [""], "其他": ["简易钥匙","电梯"], "委托": [""], "纹章": [""], };
+const dialog = document.getElementById('marker-dialog');
+const markerTypeSelect = document.getElementById('marker-type');
+const markerNameInput = document.getElementById('marker-name');
+const markerSubtype = document.getElementById('marker-subtype');
+const markerIntroInput = document.getElementById('marker-intro');
+const markerLayerSelect = document.getElementById('marker-layer');
+const dialogOk = document.getElementById('dialog-ok');
+const dialogCancel = document.getElementById('dialog-cancel');
+const moveTip = document.getElementById('move-tip');
+const markerXInput = document.getElementById('marker-x');
+const markerYInput = document.getElementById('marker-y');
+const bindCanvas = document.getElementById("bind-lines");
+const bindCtx = bindCanvas.getContext("2d");
+const undoStack = [];
+const MAX_UNDO = 50;
+let pendingCoord = null;
+let scale = 0.3;
+let originX = 0, originY = 0;
+let isDragging = false;
+let dragStart = {x:0,y:0};
+let mapStart = {x:0,y:0};
+let movingMarker = null;
+let markerIdCounter = 0;
+let isEditing = null;
+let bindSource = null;
+let dragMoved = false;
+let isDevMode = false;
+if (new URLSearchParams(window.location.search).get('dev') === '1') {
+    isDevMode = true;
+    console.log("开发者模式已开启");
+}
+function updateTransform() {
+  map.style.transform = `scale(${scale})`;
+  map.style.left = originX + 'px';
+  map.style.top = originY + 'px';
+  document.querySelectorAll('.marker').forEach(updateMarkerPosition);
+  updateBindLines();
+}
+function updateMarkerPosition(marker) {
+  const x = parseFloat(marker.dataset.mapX) * scale + originX;
+  const y = parseFloat(marker.dataset.mapY) * scale + originY;
+  marker.style.left = x + 'px';
+  marker.style.top = y + 'px';
+  const size = Math.max(96 * scale * 0.15, 16);
+  marker.style.width = size + 'px';
+  marker.style.height = size + 'px';
+}
+map.onload = () => {
+  originX = (mapbackground.clientWidth - map.width * scale)/2;
+  originY = (mapbackground.clientHeight - map.height * scale)/2;
+  updateTransform();
+  loadMarkers();
+  map.ondragstart = () => false;
+};
+document.getElementById('layer2').style.display = 'none';
+document.getElementById('layer3').style.display = 'none';
+document.querySelector('#layer-toggle button[data-layer="2"]').style.backgroundColor = '#b1b1b1';
+document.querySelector('#layer-toggle button[data-layer="3"]').style.backgroundColor = '#b1b1b1';
+mapbackground.addEventListener('mousedown', e => {
+  if (e.button !== 0)  return;
+  isDragging = true;
+  dragMoved = false;
+  dragStart = { x: e.clientX, y: e.clientY };
+  mapStart = { x: originX, y: originY };
+});
+window.addEventListener('mousemove', e => {
+  if (!isDragging)  return;
+  mapbackground.style.cursor = 'grabbing';
+  const dx = e.clientX - dragStart.x;
+  const dy = e.clientY - dragStart.y;
+  if (Math.abs(dx) > 5 || Math.abs(dy) > 5) { dragMoved = true; }
+  originX = mapStart.x + dx;
+  originY = mapStart.y + dy;
+  updateTransform();
+});
+window.addEventListener('mouseup', () => {
+  isDragging = false;
+  mapbackground.style.cursor = 'auto';
+});
+mapbackground.addEventListener('wheel', e => {
+  e.preventDefault();
+  const scaleFactor = 1.25;
+  const mouseX = (e.clientX - originX)/scale;
+  const mouseY = (e.clientY - originY)/scale;
+  scale *= (e.deltaY < 0 ? scaleFactor : 1/scaleFactor);
+  scale = Math.min(Math.max(scale, 0.1), 5);
+  originX = e.clientX - mouseX * scale;
+  originY = e.clientY - mouseY * scale;
+  updateTransform();
+});
+mapbackground.addEventListener('click', e => {
+  if (!movingMarker) return;
+  const marker = movingMarker;
+  const oldPos = { x: marker.dataset.mapX, y: marker.dataset.mapY };
+  const newX = ((e.clientX - originX) / scale).toFixed(2);
+  const newY = ((e.clientY - originY) / scale).toFixed(2);
+  const newPos = { x: newX, y: newY };
+  doAction(
+    () => {
+      marker.dataset.mapX = newPos.x;
+      marker.dataset.mapY = newPos.y;
+      updateMarkerPosition(marker);
+      showMoveTip('移动完成');
+      saveMarkers();
+      updateBindLines();
+    },
+    () => {
+      marker.dataset.mapX = oldPos.x;
+      marker.dataset.mapY = oldPos.y;
+      updateMarkerPosition(marker);
+      saveMarkers();
+      updateBindLines();
+      showMoveTip('已撤销移动');
+    }
+  );
+  movingMarker = null;
+});
+mapbackground.addEventListener('contextmenu', e => {
+  e.preventDefault();
+  if (!isDevMode) return;
+  if (e.target.classList.contains('marker')) { return; }
+  if (movingMarker) { movingMarker = null; showMoveTip('已取消移动'); return;}
+  if (bindSource) { bindSource = null; showMoveTip('已取消绑定'); return;  }
+  isEditing = null;
+  const x = (Math.round(((e.clientX - originX) / scale) / 0.01) * 0.01).toFixed(2);
+  const y = (Math.round(((e.clientY - originY) / scale) / 0.01) * 0.01).toFixed(2);
+  pendingCoord = {x, y};
+  markerXInput.value = x;
+  markerYInput.value = y;
+  dialog.style.display = 'block';
+  document.getElementById('dialog-overlay').style.display = 'block';
+  markerNameInput.value = markerTypeSelect.value;
+  updateSubTypeSelect();
+});
+function createMarker(x, y, type, name, intro, layer = 1) {
+  const marker = document.createElement('img');
+  marker.src = "icon/" + type + ".png";
+  marker.className = 'marker';
+  marker.dataset.mapX = x;
+  marker.dataset.mapY = y;
+  marker.dataset.type = type;
+  marker.dataset.name = name;
+  marker.dataset.intro = intro;
+  marker.dataset.layer = layer;
+  marker.dataset.dimmed = "0";
+  marker.dataset.id = markerIdCounter;
+  markerIdCounter++;
+  marker.dataset.bindIds = '[]';
+  marker.alt = name || type;
+  marker.draggable = false;
+  marker.ondragstart = () => false;
+  const layerDiv = document.getElementById('layer' + layer);
+  layerDiv.appendChild(marker);
+  updateMarkerPosition(marker);
+  initMarker(marker);
+  updateBindLines();
+  return marker;
+}
+markerTypes.forEach(type => {
+  const opt = document.createElement('option');
+  opt.value = type;
+  opt.textContent = type;
+  markerTypeSelect.appendChild(opt);
+});
+function updateSubTypeSelect() {
+  const type = markerTypeSelect.value;
+  const subtypes = nameTypes[type] || [];
+  markerSubtype.innerHTML = '';
+  if (subtypes.length > 0) {
+    subtypes.forEach(sub => {
+      const opt = document.createElement('option');
+      opt.value = sub;
+      opt.textContent = sub;
+      markerSubtype.appendChild(opt);
+    });
+    markerSubtype.value = subtypes[0];
+    if (!isEditing)markerNameInput.value = subtypes[0];
+    markerSubtype.disabled = false;
+    markerSubtype.style.backgroundColor = '';
+  } else {
+    if (!isEditing)markerNameInput.value = type;
+    markerSubtype.disabled = true;
+    markerSubtype.style.backgroundColor = '#b1b1b1';
+  }
+}
+markerTypeSelect.addEventListener('change', updateSubTypeSelect);
+markerSubtype.addEventListener('change', () => { markerNameInput.value = markerSubtype.value; });
+function initMarker(marker){
+marker.addEventListener('mousedown', e => { e.preventDefault(); });
+marker.addEventListener('click', e => {
+  e.stopPropagation();
+  if (dragMoved) return;
+  if (bindSource) { bindMarkerAction(marker); return; }
+  const dimmed = marker.dataset.dimmed === "0" ? "1" : "0";
+  setMarkerDimmed(marker, dimmed);
+  updateBindLines();
+  saveMarkers();
+});
+  marker.addEventListener('mouseenter', e => showTooltip(marker, e));
+  marker.addEventListener('mousemove', e => moveTooltip(e));
+  marker.addEventListener('mouseleave', hideTooltip);
+  marker.addEventListener('contextmenu', e => {
+    e.preventDefault();
+    if (!isDevMode) return;
+    const existingMenu = document.getElementById('marker-menu');
+    if (existingMenu) existingMenu.remove();
+    const menu = document.createElement('div');
+    menu.id = 'marker-menu';
+    menu.classList.add('marker-menu');
+    menu.style.left = e.pageX + 'px';
+    menu.style.top = e.pageY + 'px';
+    const menuItems = [
+      { text: '编辑', action: () =>  editMarker(marker) },
+      { text: '移动', action: () => { movingMarker = marker; showMoveTip('正在移动标记'); } },
+      { text: '绑定', action: () => bindMarkerAction(marker)},
+      { text: '取消绑定', action: () => unbind(marker)},
+      { text: '删除', action: () => {
+        const markerData = {
+          x: marker.dataset.mapX,
+          y: marker.dataset.mapY,
+          type: marker.dataset.type,
+          name: marker.dataset.name,
+          intro: marker.dataset.intro,
+          layer: marker.dataset.layer,
+          bindIds: JSON.parse(marker.dataset.bindIds),
+          dimmed: marker.dataset.dimmed,
+          id: marker.dataset.id
+        };
+        doAction(
+          () => { marker.remove(); },
+          () => {
+            const restored = createMarker(
+              markerData.x, markerData.y, markerData.type, markerData.name,
+              markerData.intro, parseInt(markerData.layer)
+            );
+            restored.dataset.id = markerData.id;
+            restored.dataset.bindIds = JSON.stringify(markerData.bindIds);
+            setMarkerDimmed(restored, markerData.dimmed);
+          }
+        );
+        saveMarkers();
+        updateBindLines();
+      }},
+      {
+        text: '删除所有同名同类型标记',
+        action: () => {
+          const type = marker.dataset.type;
+          const name = marker.dataset.name;
+          document.querySelectorAll('.marker').forEach(m => {
+            if (m.dataset.type === type && m.dataset.name === name) {
+              m.remove();
+            }
+          });
+          saveMarkers();
+          updateBindLines();
+        }
+      }
+    ];
+    menuItems.forEach(item => {
+      const div = document.createElement('div');
+      div.textContent = item.text;
+      div.addEventListener('click', () => { item.action(); menu.remove(); });
+      menu.appendChild(div);
+    });
+    document.body.appendChild(menu);
+    const hideMenu = () => { menu.remove(); window.removeEventListener('click', hideMenu); };
+    setTimeout(() => window.addEventListener('click', hideMenu), 0);
+  });
+}
+function clearDialog() {
+  pendingCoord = null;
+  markerNameInput.value = "";
+  markerIntroInput.value = "";
+  markerXInput.value = "";
+  markerYInput.value = "";
+  markerLayerSelect.value = "1";
+  dialog.style.display = 'none';
+  document.getElementById('dialog-overlay').style.display = 'none';
+  isEditing = null;
+}
+dialogOk.addEventListener('click', () => {
+  let x, y;
+  if (markerXInput.value.trim() !== "" && markerYInput.value.trim() !== "") {
+    const xi = parseFloat(markerXInput.value);
+    const yi = parseFloat(markerYInput.value);
+    if (isNaN(xi) || isNaN(yi)) {
+      showMoveTip("坐标无效");
+      return;
+    }
+    x = xi.toFixed(2);
+    y = yi.toFixed(2);
+  } else if (pendingCoord) {
+    x = pendingCoord.x;
+    y = pendingCoord.y;
+  } else {
+    showMoveTip("缺少坐标");
+    return;
+  }
+  const type = markerTypeSelect.value;
+  const name = markerNameInput.value.trim();
+  const intro = markerIntroInput.value.trim();
+  const layer = parseInt(markerLayerSelect.value);
+  if (isEditing) {
+    const marker = isEditing;
+    const oldData = {
+      mapX: marker.dataset.mapX,
+      mapY: marker.dataset.mapY,
+      type: marker.dataset.type,
+      name: marker.dataset.name,
+      intro: marker.dataset.intro,
+      layer: marker.dataset.layer
+    };
+    doAction(
+      () => {
+        marker.dataset.mapX = x;
+        marker.dataset.mapY = y;
+        marker.dataset.type = type;
+        marker.dataset.name = name;
+        marker.dataset.intro = intro;
+        marker.dataset.layer = layer;
+        marker.src = "icon/" + type + ".png";
+        marker.alt = name || type;
+        updateMarkerPosition(marker);
+        const newLayerDiv = document.getElementById('layer' + layer);
+        newLayerDiv.appendChild(marker);
+      },
+      () => {
+        marker.dataset.mapX = oldData.mapX;
+        marker.dataset.mapY = oldData.mapY;
+        marker.dataset.type = oldData.type;
+        marker.dataset.name = oldData.name;
+        marker.dataset.intro = oldData.intro;
+        marker.dataset.layer = oldData.layer;
+        marker.src = "icon/" + oldData.type + ".png";
+        marker.alt = oldData.name || oldData.type;
+        updateMarkerPosition(marker);
+        const oldLayerDiv = document.getElementById('layer' + oldData.layer);
+        oldLayerDiv.appendChild(marker);
+      }
+    );
+    showMoveTip("编辑成功");
+    updateBindLines();
+  } else if (pendingCoord) {
+    doAction(
+      () => { createMarker(x, y, type, name, intro, layer); },
+      () => {
+        const marker = document.querySelector(`.marker[data-id="${markerIdCounter-1}"]`);
+        if (marker) marker.remove();
+      }
+    );
+  }
+  clearDialog();
+  saveMarkers();
+});
+dialogCancel.addEventListener('click', clearDialog);
+function editMarker(marker) {
+  isEditing = marker;
+  markerTypeSelect.value = marker.dataset.type;
+  updateSubTypeSelect();
+  markerIntroInput.value = marker.dataset.intro || '';
+  markerLayerSelect.value = marker.dataset.layer || '1';
+  markerXInput.value = marker.dataset.mapX;
+  markerYInput.value = marker.dataset.mapY;
+  const origName = marker.dataset.name || '';
+  const subtypeOptions = Array.from(markerSubtype.options).map(o => o.value);
+  if (subtypeOptions.includes(origName)) { markerSubtype.value = origName; }
+  markerNameInput.value = origName;
+  dialog.style.display = 'block';
+  document.getElementById('dialog-overlay').style.display = 'block';
+}
+function bindMarkerAction(marker) {
+  if (!bindSource) {
+    bindSource = marker;
+    showMoveTip(`点击目标标记进行绑定`);
+  } else {
+    const sourceId = bindSource.dataset.id;
+    const targetId = marker.dataset.id;
+    if (sourceId === targetId) { showMoveTip('不能绑定自己'); bindSource = null; return; }
+    const oldBindIds = JSON.parse(bindSource.dataset.bindIds);
+    doAction(
+      () => {
+        if (!oldBindIds.includes(targetId)) oldBindIds.push(targetId);
+        bindSource.dataset.bindIds = JSON.stringify(oldBindIds);
+      },
+      () => {
+        bindSource.dataset.bindIds = JSON.stringify(oldBindIds.filter(id => id !== targetId));
+      }
+    );
+    const arrowTypes = ["上箭头", "下箭头", "左箭头", "右箭头"];
+    if (arrowTypes.includes(bindSource.dataset.type)) {
+      bindSource.dataset.mapX = marker.dataset.mapX;
+      bindSource.dataset.mapY = marker.dataset.mapY;
+      updateMarkerPosition(bindSource);
+    }
+    showMoveTip(`绑定成功`);
+    bindSource = null;
+    updateBindLines();
+    saveMarkers();
+  }
+}
+function unbind(marker){
+  const id = marker.dataset.id;
+  document.querySelectorAll('.marker').forEach(m => {
+    let binds = JSON.parse(m.dataset.bindIds || '[]');
+    if (binds.includes(id)) {
+      binds = binds.filter(b => b !== id);
+      m.dataset.bindIds = JSON.stringify(binds);
+    }
+  });
+  const oldBindIds = JSON.parse(marker.dataset.bindIds);
+  doAction(
+    () => { marker.dataset.bindIds = '[]'; },
+    () => { marker.dataset.bindIds = JSON.stringify(oldBindIds); }
+  );
+  showMoveTip('已取消绑定');
+  saveMarkers();
+  updateBindLines();
+}
+const Panel1 = document.getElementById('panel1');
+const toggleButton = document.getElementById('button1');
+function updatePanelDisplay() {
+  const display = window.getComputedStyle(Panel1).display;
+  if (display === 'none') { toggleButton.textContent = '显示面板'; } else { toggleButton.textContent = '隐藏面板'; }
+}
+toggleButton.addEventListener('click', (e) => {
+  e.stopPropagation();
+  const display = window.getComputedStyle(Panel1).display;
+  if (display === 'none') { Panel1.style.display = 'flex'; } else { Panel1.style.display = 'none'; }
+  updatePanelDisplay();
+  updateBindLines();
+});
+updatePanelDisplay();
+const importBtn = document.getElementById('button2');
+importBtn.textContent = "导入标记";
+importBtn.addEventListener('click', () => {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json';
+  input.addEventListener('change', async () => {
+    const file = input.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async e => {
+      try {
+        const markers = JSON.parse(e.target.result);
+        if (!Array.isArray(markers)) throw new Error('文件格式错误');
+        document.querySelectorAll('.marker').forEach(m => m.remove());
+        await loadMarkersFromData(markers);
+        saveMarkers();
+        showMoveTip('标记导入成功');
+      } catch (err) {
+        alert('导入失败：' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  });
+  input.click();
+});
+const exportBtn = document.getElementById('button3');
+exportBtn.textContent = "导出标记";
+exportBtn.addEventListener('click', () => {
+  const markers = [];
+  document.querySelectorAll('.marker').forEach(marker => {
+    markers.push({
+      id: parseInt(marker.dataset.id),
+      x: parseFloat(marker.dataset.mapX).toFixed(2),
+      y: parseFloat(marker.dataset.mapY).toFixed(2),
+      type: marker.dataset.type,
+      name: marker.dataset.name,
+      intro: marker.dataset.intro,
+      layer: marker.dataset.layer,
+      bindIds: JSON.parse(marker.dataset.bindIds || '[]'),
+      dimmed: marker.dataset.dimmed
+    });
+  });
+  const blob = new Blob([JSON.stringify(markers, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = "标记.json";
+  a.click();
+  URL.revokeObjectURL(url);
+});
+let searchResults = [];
+let currentSearchIndex = -1;
+const searchInput = document.getElementById('marker-search');
+searchInput.addEventListener('input', () => {
+  const query = searchInput.value.trim().toLowerCase();
+  const markers = document.querySelectorAll('.marker');
+  let hasResult = false;
+  searchResults = [];
+  currentSearchIndex = -1;
+  markers.forEach(m => {
+    m.style.outline = "";
+    m.style.outlineOffset = "";
+  });
+  markers.forEach(marker => {
+    const name = marker.dataset.name.toLowerCase();
+    const intro = marker.dataset.intro.toLowerCase();
+    if (query && (name.includes(query) || intro.includes(query))) {
+      marker.style.display = 'block';
+      searchResults.push(marker);
+      hasResult = true;
+      if (name.includes(query)) {
+        marker.style.outline = "3px solid red";
+        marker.style.outlineOffset = "2px";
+      } else if (intro.includes(query)) {
+        marker.style.outline = "3px solid blue";
+        marker.style.outlineOffset = "2px";
+      }
+    } else if (query) {
+      marker.style.display = 'none';
+    } else {
+      marker.style.display = 'block';
+    }
+  });
+  if (!query) {
+    searchInput.style.color = '';
+    searchInput.style.fontWeight = '';
+  } else if (hasResult) {
+    searchInput.style.color = 'green';
+    searchInput.style.fontWeight = 'normal';
+  } else {
+    searchInput.style.color = 'red';
+    searchInput.style.fontWeight = 'bold';
+  }
+  updateBindLines();
+});
+document.querySelectorAll('#layer-toggle button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const layerId = 'layer' + btn.dataset.layer;
+    const layerDiv = document.getElementById(layerId);
+    if (layerDiv.style.display === 'none') {
+      layerDiv.style.display = 'block';
+      btn.style.backgroundColor = '';
+    } else {
+      layerDiv.style.display = 'none';
+      btn.style.backgroundColor = '#b1b1b1';
+    }
+    updateBindLines();
+  });
+});
+const typeToggleDiv = document.getElementById('type-toggle');
+markerTypes.forEach(type => {
+  const btn = document.createElement('button');
+  btn.textContent = type;
+  btn.dataset.type = type;
+  btn.style.cursor = 'pointer';
+  btn.addEventListener('click', () => {
+    const markers = document.querySelectorAll(`.marker[data-type="${type}"]`);
+    const isHidden = btn.dataset.hidden === '1';
+    markers.forEach(marker => { hideMarkerWithBinds(marker, !isHidden); });
+    btn.dataset.hidden = isHidden ? '0' : '1';
+    btn.style.backgroundColor = isHidden ? '' : '#b1b1b1';
+    updateBindLines();
+  });
+  typeToggleDiv.appendChild(btn);
+});
+const clearMarkersBtn = document.getElementById('panel1-btn1');
+clearMarkersBtn.addEventListener('click', () => {
+  if (!confirm('确定要清空所有标记吗？')) return;
+  document.querySelectorAll('.marker').forEach(marker => marker.remove());
+  localStorage.removeItem('markers');
+  showMoveTip('所有标记已清空');
+  updateBindLines();
+});
+const resetMarkersBtn = document.getElementById('panel1-btn2');
+resetMarkersBtn.addEventListener('click', async () => {
+  if (!confirm('确定要重置所有标记吗')) return;
+  document.querySelectorAll('.marker').forEach(marker => marker.remove());
+  localStorage.removeItem('markers');
+  localStorage.removeItem('markers_initialized');
+  await loadMarkers();
+  saveMarkers();
+  updateBindLines();
+  showMoveTip('已重置标记为默认');
+});
+const toggleTransparentBtn = document.getElementById('panel1-btn3');
+let transparentVisible = true;
+toggleTransparentBtn.textContent = '隐藏透明';
+toggleTransparentBtn.style.backgroundColor = '#b1b1b1';
+document.querySelectorAll('.marker').forEach(marker => {
+  if (marker.dataset.dimmed === "1") marker.style.display = 'block';
+});
+toggleTransparentBtn.addEventListener('click', () => {
+  transparentVisible = !transparentVisible;
+  const markers = document.querySelectorAll('.marker');
+  markers.forEach(marker => {
+    if (marker.dataset.dimmed === "1") {
+      marker.style.display = transparentVisible ? 'block' : 'none';
+    }
+  });
+  toggleTransparentBtn.textContent = transparentVisible ? '隐藏透明' : '显示透明';
+  toggleTransparentBtn.style.backgroundColor = transparentVisible ? '#b1b1b1' : '';
+  updateBindLines();
+});
+const typeButtons = Array.from(typeToggleDiv.querySelectorAll('button'));
+document.getElementById('panel1-btn5').addEventListener('click', () => {
+  typeButtons.forEach(btn => {
+    btn.dataset.hidden = '1';
+    btn.style.backgroundColor = '#b1b1b1';
+    const markers = document.querySelectorAll(`.marker[data-type="${btn.dataset.type}"]`);
+    markers.forEach(marker => marker.style.display = 'none');
+    updateBindLines();
+  });
+});
+document.getElementById('panel1-btn6').addEventListener('click', () => {
+  typeButtons.forEach(btn => {
+    btn.dataset.hidden = '0';
+    btn.style.backgroundColor = '';
+    const markers = document.querySelectorAll(`.marker[data-type="${btn.dataset.type}"]`);
+    markers.forEach(marker => marker.style.display = 'block');
+    updateBindLines();
+  });
+});
+const typeToggleBtn = document.getElementById('panel1-btn7');
+let typeToggleExpanded = false;
+typeToggleDiv.style.display = 'none';
+function updateTypeToggleButton() {
+  typeToggleBtn.textContent = typeToggleExpanded ? '折叠类型列表' : '展开类型列表';
+  typeToggleBtn.style.backgroundColor = typeToggleExpanded ? '#b1b1b1':'';
+}
+typeToggleBtn.addEventListener('click', () => {
+  typeToggleExpanded = !typeToggleExpanded;
+  typeToggleDiv.style.display = typeToggleExpanded ? 'flex' : 'none';
+  updateTypeToggleButton();
+  updateBindLines();
+});
+updateTypeToggleButton();
+const locateBtn = document.getElementById('panel1-btn8');
+locateBtn.addEventListener('click', () => {
+  if (searchResults.length === 0) {
+    alert("没有搜索结果");
+    return;
+  }
+  currentSearchIndex = (currentSearchIndex + 1) % searchResults.length;
+  const targetMarker = searchResults[currentSearchIndex];
+  originX = mapbackground.clientWidth / 2 - (parseFloat(targetMarker.dataset.mapX) * scale);
+  originY = mapbackground.clientHeight / 2 - (parseFloat(targetMarker.dataset.mapY) * scale);
+  updateTransform();
+});
+const clearSearchBtn = document.getElementById('panel1-btn9');
+clearSearchBtn.addEventListener('click', () => {
+  searchInput.value = "";
+  const markers = document.querySelectorAll('.marker');
+  markers.forEach(marker => {
+    marker.style.display = "block";
+    marker.style.outline = "";
+    marker.style.outlineOffset = "";
+  });
+  searchInput.style.color = "";
+  searchInput.style.fontWeight = "";
+  searchResults = [];
+  currentSearchIndex = -1;
+});
+const resetDimmedBtn = document.getElementById('panel1-btn10');
+resetDimmedBtn.addEventListener('click', () => {
+  if (!confirm('确定要重置透明标记吗？')) return;
+  document.querySelectorAll('.marker').forEach(marker => {
+    if (marker.dataset.dimmed === "1") {
+      setMarkerDimmed(marker, "0");
+      marker.style.display = "block";
+    }
+  });
+  updateBindLines();
+  showMoveTip('所有透明标记已重置');
+});
+function showMoveTip(text, duration = 1500) {
+  moveTip.textContent = text;
+  moveTip.style.opacity = 1;
+  if (duration > 0) {
+    setTimeout(() => {
+      moveTip.style.opacity = 0;
+    }, duration);
+  }
+}
+const tooltip = document.getElementById('tooltip');
+function showTooltip(marker, e) {
+  tooltip.innerText = marker.dataset.name + "\n" + marker.dataset.intro;
+  tooltip.style.left = (e.pageX + 10) + "px";
+  tooltip.style.top = (e.pageY + 10) + "px";
+  tooltip.style.display = "block";
+}
+function moveTooltip(e) {
+  tooltip.style.left = (e.pageX + 10) + "px";
+  tooltip.style.top = (e.pageY + 10) + "px";
+}
+function hideTooltip() {
+  tooltip.style.display = "none";
+}
+function saveMarkers() {
+  const markers = [];
+  document.querySelectorAll('.marker').forEach(marker => {
+    markers.push({
+      x: parseFloat(marker.dataset.mapX).toFixed(2),
+      y: parseFloat(marker.dataset.mapY).toFixed(2),
+      type: marker.dataset.type || "type1",
+      name: marker.dataset.name || "",
+      id: parseInt(marker.dataset.id),
+      intro: marker.dataset.intro || "",
+      layer: marker.dataset.layer || 1,
+      bindIds: JSON.parse(marker.dataset.bindIds || '[]'),
+      dimmed: marker.dataset.dimmed,
+      hidden: (marker.style.display === 'none')
+    });
+  });
+  localStorage.setItem('markers', JSON.stringify(markers));
+}
+async function loadMarkers() {
+  const STORAGE_KEY = 'markers';
+  const INIT_KEY = 'markers_initialized';
+  const stored = localStorage.getItem(STORAGE_KEY);
+  async function createMarkersFromData(markersData) {
+    const markerMap = {};
+    const allLayers = ['layer1','layer2','layer3'];
+    const prevDisplay = {};
+    allLayers.forEach(layerId => {
+      const layer = document.getElementById(layerId);
+      prevDisplay[layerId] = layer.style.display;
+      layer.style.display = 'block';
+    });
+    markersData.forEach(m => {
+      const marker = createMarker(
+        (Math.round(m.x / 0.01) * 0.01).toFixed(2),
+        (Math.round(m.y / 0.01) * 0.01).toFixed(2),
+        m.type,
+        m.name,
+        m.intro,
+        m.layer
+      );
+      if (m.id != null) {
+        marker.dataset.id = m.id;
+        markerIdCounter = Math.max(markerIdCounter, m.id + 1);
+      }
+      if (m.dimmed === "1") {
+        setMarkerDimmed(marker, "1");
+      } else {
+        setMarkerDimmed(marker, "0");
+      }
+      if (m.hidden) marker.style.display = 'none';
+      markerMap[m.id] = marker;
+    });
+    markersData.forEach(m => {
+      const marker = markerMap[m.id];
+      if (marker && m.bindIds) {
+        marker.dataset.bindIds = JSON.stringify(
+          m.bindIds.filter(id => markerMap[id])
+        );
+      }
+    });
+    updateBindLines();
+    allLayers.forEach(layerId => {
+      document.getElementById(layerId).style.display = prevDisplay[layerId];
+    });
+    return markerMap;
+  }
+  if (stored) {
+    try {
+      const markers = JSON.parse(stored);
+      document.querySelectorAll('.marker').forEach(m => m.remove());
+      await createMarkersFromData(markers);
+      return;
+    } catch (err) {
+      console.warn('解析 localStorage markers 失败，已清除。', err);
+      localStorage.removeItem(STORAGE_KEY);
+    }
+  }
+  if (localStorage.getItem(INIT_KEY)) return;
+  localStorage.setItem(INIT_KEY, '1');
+  try {
+    const resp = await fetch('default.json', { cache: 'no-store' });
+    if (!resp.ok) throw new Error('default.json 请求失败: ' + resp.status);
+    const data = await resp.json();
+    if (!Array.isArray(data)) throw new Error('default.json 不是数组');
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    document.querySelectorAll('.marker').forEach(m => m.remove());
+    await createMarkersFromData(data);
+    showMoveTip('默认标记已加载');
+  } catch (err) {
+    console.error('加载 default.json 失败：', err);
+    showMoveTip('未加载默认标记');
+  }
+}
+async function loadMarkersFromData(markersData) {
+  const markerMap = {};
+  const allLayers = ['layer1','layer2','layer3'];
+  const prevDisplay = {};
+  allLayers.forEach(layerId => {
+    const layer = document.getElementById(layerId);
+    prevDisplay[layerId] = layer.style.display;
+    layer.style.display = 'block';
+  });
+  markersData.forEach(m => {
+    const marker = createMarker(
+      (Math.round(m.x / 0.01) * 0.01).toFixed(2),
+      (Math.round(m.y / 0.01) * 0.01).toFixed(2),
+      m.type,
+      m.name,
+      m.intro,
+      m.layer
+    );
+    if (m.id != null) {
+      marker.dataset.id = m.id;
+      markerIdCounter = Math.max(markerIdCounter, m.id + 1);
+    }
+    if (m.dimmed === "1") setMarkerDimmed(marker, "1");
+    if (m.hidden) marker.style.display = 'none';
+    markerMap[m.id] = marker;
+  });
+  markersData.forEach(m => {
+    const marker = markerMap[m.id];
+    if (marker && m.bindIds) {
+      marker.dataset.bindIds = JSON.stringify(
+        m.bindIds.filter(id => markerMap[id])
+      );
+    }
+  });
+  updateBindLines();
+  allLayers.forEach(layerId => {
+    document.getElementById(layerId).style.display = prevDisplay[layerId];
+  });
+  return markerMap;
+}
+function setMarkerDimmed(marker, dimmed, visited = new Set()) {
+  const id = marker.dataset.id;
+  if (visited.has(id)) return;
+  visited.add(id);
+  marker.dataset.dimmed = dimmed;
+  marker.style.opacity = dimmed === "1" ? 0.3 : 1;
+  if (dimmed === "1") {
+    marker.style.display = transparentVisible ? 'block' : 'none';
+  } else {
+    marker.style.display = 'block';
+  }
+  const binds = JSON.parse(marker.dataset.bindIds || '[]');
+  binds.forEach(bindId => {
+    const linked = document.querySelector(`.marker[data-id="${bindId}"]`);
+    if (linked) {
+      setMarkerDimmed(linked, dimmed, visited);
+    }
+  });
+}
+function hideMarkerWithBinds(marker, hidden, visited = new Set()) {
+  const id = marker.dataset.id;
+  if (visited.has(id)) return;
+  visited.add(id);
+  marker.style.display = hidden ? 'none' : 'block';
+  const binds = JSON.parse(marker.dataset.bindIds || '[]');
+  binds.forEach(bindId => {
+    const linked = document.querySelector(`.marker[data-id="${bindId}"]`);
+    if (linked) hideMarkerWithBinds(linked, hidden, visited);
+  });
+}
+function resizeCanvas() {
+  bindCanvas.width = mapbackground.clientWidth;
+  bindCanvas.height = mapbackground.clientHeight;
+}
+window.addEventListener("resize", resizeCanvas);
+resizeCanvas();
+function updateBindLines() {
+  bindCtx.clearRect(0, 0, bindCanvas.width, bindCanvas.height);
+  document.querySelectorAll(".marker").forEach(marker => {
+    const binds = JSON.parse(marker.dataset.bindIds || "[]");
+    if (marker.style.display === "none" || marker.dataset.dimmed === "1" || marker.parentElement.style.display === "none") return;
+    const x1 = parseFloat(marker.style.left);
+    const y1 = parseFloat(marker.style.top);
+    binds.forEach(id => {
+      const target = document.querySelector(`.marker[data-id="${id}"]`);
+      if (!target) return;
+      if (target.style.display === "none" || target.dataset.dimmed === "1" || target.parentElement.style.display === "none") return;
+      const x2 = parseFloat(target.style.left);
+      const y2 = parseFloat(target.style.top);
+      bindCtx.beginPath();
+      bindCtx.moveTo(x1, y1);
+      bindCtx.lineTo(x2, y2);
+      bindCtx.strokeStyle = "white";
+      bindCtx.lineWidth = 2;
+      bindCtx.stroke();
+    });
+  });
+}
+function doAction(doFn, undoFn) {
+  doFn();
+  undoStack.push(undoFn);
+  if (undoStack.length > MAX_UNDO) undoStack.shift();
+}
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'z') {
+    e.preventDefault();
+    undo();
+  }
+});
+function undo() {
+  if (undoStack.length === 0)
+  {
+    showMoveTip('无可撤销步骤');
+    return;
+  }
+  const undoFn = undoStack.pop();
+  undoFn();
+  updateBindLines();
+  showMoveTip('已撤销');
+  saveMarkers();
+}
+</script>
+</body>
+</html>
