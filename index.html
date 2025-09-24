@@ -12,7 +12,6 @@
     margin:0;
     overflow:hidden;
   }
-  /* 地图背景 */
   #map_background
   {
     width:100vw;
@@ -22,7 +21,6 @@
     position:relative;
     cursor:auto;
   }
-  /* 地图 */
   #map
   {
     position:absolute;
@@ -30,7 +28,6 @@
     left:0;
     transform-origin: top left;
   }
-  /* 标记 */
   .marker
   {
     position: absolute;
@@ -53,7 +50,6 @@
   {
     pointer-events: auto;
   }
-  /* 标记右键菜单 */
   .marker-menu
   {
     position: absolute;
@@ -75,7 +71,6 @@
   {
     background: gray;
   }
-  /* 标记弹窗 */
   #marker-dialog
   {
     display:none;
@@ -102,7 +97,6 @@
     z-index: 19999;
     display: none;
   }
-  /* form-row标记弹窗 */
   .form-row input, .form-row select, .form-row textarea
   {
     font-size: 16px;
@@ -121,7 +115,6 @@
     font-size: 16px;
     width: 50px;
   }
-  /* 标记弹窗子选择 */
   #marker-type,#marker-name
   {
     font-size: 16px;
@@ -145,7 +138,6 @@
     padding:6px 12px;
     margin-left:8px;
   }
-  /* 外置按钮 */
   .button-container {
     position: absolute;
     top: 10px;
@@ -162,7 +154,6 @@
     background-color: #fff;
     cursor: pointer;
   }
-  /* 面板 */
   #panel1
   {
     display: none;
@@ -190,7 +181,6 @@
     justify-content: center;
     cursor: pointer;
   }
-  /* 搜索栏 */
   #marker-search
   {
     width: 100%;
@@ -207,7 +197,6 @@
     border-color: #66afe9;
     box-shadow: 0 0 5px rgba(102,175,233,0.6);
   }
-  /* 图层特殊排列 */
   #layer-toggle
   {
     display: flex;
@@ -220,7 +209,6 @@
     padding: 6px;
     cursor: pointer;
   }
-  /* 类型特殊排列 */
   #type-toggle
   {
     display: flex;
@@ -254,7 +242,6 @@
     transition: opacity 0.5s;
     z-index: 10000;
   }
-  /* 悬浮提示 */
   #tooltip
   {
     position: fixed;
@@ -377,12 +364,10 @@ let isEditing = null;
 let bindSource = null;
 let dragMoved = false;
 let isDevMode = false;
-/* 开发者模式 */
 if (new URLSearchParams(window.location.search).get('dev') === '1') {
   isDevMode = true;
   console.log("开发者模式已开启");
 }
-/* 更新显示 */
 function updateTransform() {
   map.style.transform = `scale(${scale})`;
   map.style.left = originX + 'px';
@@ -390,7 +375,6 @@ function updateTransform() {
   document.querySelectorAll('.marker').forEach(updateMarkerPosition);
   updateBindLines();
 }
-/* 更新标记位置 */
 function updateMarkerPosition(marker) {
   const x = parseFloat(marker.dataset.mapX) * scale + originX;
   const y = parseFloat(marker.dataset.mapY) * scale + originY;
@@ -400,12 +384,10 @@ function updateMarkerPosition(marker) {
   marker.style.width = size + 'px';
   marker.style.height = size + 'px';
 }
-/* 更新类型 */
 function updateType() {
   const type = markerTypeSelect.value;
   const subtypes = nameTypes[type] || [];
   markerSubtype.innerHTML = '';
-  // 遍历，如果有子类型
   if (subtypes.length > 0) {
     subtypes.forEach(sub => {
       const opt = document.createElement('option');
@@ -414,19 +396,16 @@ function updateType() {
       markerSubtype.appendChild(opt);
     });
     markerSubtype.value = subtypes[0];
-    // 不处在编辑模式下，自动填充子类型名称
     if (!isEditing) markerNameInput.value = subtypes[0];
     markerSubtype.disabled = false;
     markerSubtype.style.backgroundColor = '';
   }
-  // 否则填充类型名称，同时禁用子类型
   else {
     if (!isEditing) markerNameInput.value = type;
     markerSubtype.disabled = true;
     markerSubtype.style.backgroundColor = 'gray';
   }
 }
-/* 加载地图 */
 map.onload = () => {
   originX = (mapbackground.clientWidth - map.width * scale)/2;
   originY = (mapbackground.clientHeight - map.height * scale)/2;
@@ -438,7 +417,7 @@ document.getElementById('layer2').style.display = 'none';
 document.getElementById('layer3').style.display = 'none';
 document.querySelector('#layer-toggle button[data-layer="2"]').style.backgroundColor = 'gray';
 document.querySelector('#layer-toggle button[data-layer="3"]').style.backgroundColor = 'gray';
-/* 坐标 */
+document.addEventListener("DOMContentLoaded", () => { updateBindLines(); });
 function toMapCoord(clientX, clientY) {
   const x = ((clientX - originX) / scale);
   const y = ((clientY - originY) / scale);
@@ -447,8 +426,6 @@ function toMapCoord(clientX, clientY) {
     y: (Math.round(y / 0.01) * 0.01).toFixed(2)
   };
 }
-/* 地图拖动逻辑 */
-// 按下
 mapbackground.addEventListener('mousedown', e => {
   if (e.button !== 0)  return;
   isDragging = true;
@@ -456,7 +433,6 @@ mapbackground.addEventListener('mousedown', e => {
   dragStart = { x: e.clientX, y: e.clientY };
   mapStart = { x: originX, y: originY };
 });
-// 移动
 window.addEventListener('mousemove', e => {
   if (!isDragging)  return;
   mapbackground.style.cursor = 'grabbing';
@@ -467,12 +443,10 @@ window.addEventListener('mousemove', e => {
   originY = mapStart.y + dy;
   updateTransform();
 });
-// 抬起
 window.addEventListener('mouseup', () => {
   isDragging = false;
   mapbackground.style.cursor = 'auto';
 });
-// 滚轮缩放
 mapbackground.addEventListener('wheel', e => {
   e.preventDefault();
   const scaleFactor = 1.25;
@@ -484,7 +458,6 @@ mapbackground.addEventListener('wheel', e => {
   originY = e.clientY - mouseY * scale;
   updateTransform();
 });
-// 点击
 mapbackground.addEventListener('click', e => {
   if (!movingMarker) return;
   const marker = movingMarker;
@@ -529,7 +502,6 @@ mapbackground.addEventListener('contextmenu', e => {
     showMoveTip('已取消绑定');
     return;
   }
-  // 弹出弹窗
   isEditing = null;
   const { x, y } = toMapCoord(e.clientX, e.clientY);
   pendingCoord = {x, y};
@@ -557,35 +529,27 @@ function createMarker(x, y, type, name, intro, layer = 1) {
   marker.alt = name || type;
   marker.draggable = false;
   marker.ondragstart = () => false;
-  // 放到对应图层
   const layerDiv = document.getElementById('layer' + layer);
   layerDiv.appendChild(marker);
-  // 更新
   updateMarkerPosition(marker);
   initMarker(marker);
   updateBindLines();
   return marker;
 }
-/* 遍历markertype数组添加到下拉框 */
 markerTypes.forEach(type => {
   const opt = document.createElement('option');
   opt.value = type;
   opt.textContent = type;
   markerTypeSelect.appendChild(opt);
 });
-// 更新类型名字
 markerTypeSelect.addEventListener('change', updateType);
-// 更新子类型名字
 markerSubtype.addEventListener('change', () => {
   markerNameInput.value = markerSubtype.value;
 });
-/* 标记操作 */
 function initMarker(marker){
-  // 显示悬浮提示
   marker.addEventListener('mouseenter', e => showTooltip(marker, e));
   marker.addEventListener('mousemove', e => moveTooltip(e));
   marker.addEventListener('mouseleave', hideTooltip);
-  // 点击切换透明度
   marker.addEventListener('click', e => {
     e.stopPropagation();
     if (dragMoved) return;
@@ -598,11 +562,9 @@ function initMarker(marker){
     updateBindLines();
     saveMarkers();
   });
-  // 右键逻辑
   marker.addEventListener('contextmenu', e => {
     e.preventDefault();
     if (!isDevMode) return;
-    // 清除旧菜单
     const existingMenu = document.getElementById('marker-menu');
     if (existingMenu !== null) {
       existingMenu.parentNode.removeChild(existingMenu);
@@ -620,7 +582,6 @@ function initMarker(marker){
       { text: '删除', action: () => deleteMarker(marker)},
       { text: '删除所有', action: () => deleteSameMarker(marker)}
     ];
-    // 生成菜单 DOM
     menuItems.forEach(item => {
       const div = document.createElement('div');
       div.textContent = item.text;
@@ -631,7 +592,6 @@ function initMarker(marker){
       menu.appendChild(div);
     });
     document.body.appendChild(menu);
-    // 点击其他地方菜单自动消失
     const hideMenu = () => {
       menu.remove();
       window.removeEventListener('click', hideMenu);
@@ -639,7 +599,6 @@ function initMarker(marker){
     setTimeout(() => window.addEventListener('click', hideMenu), 0);
   });
 }
-/* 点击确认 */
 dialogOk.addEventListener('click', () => {
   let x = parseFloat(markerXInput.value);
   let y = parseFloat(markerYInput.value);
@@ -654,12 +613,10 @@ dialogOk.addEventListener('click', () => {
   }
   x = x.toFixed(2);
   y = y.toFixed(2);
-  // 获取数据
   const type = markerTypeSelect.value;
   const name = markerNameInput.value.trim();
   const intro = markerIntroInput.value.trim();
   const layer = parseInt(markerLayerSelect.value);
-  // 编辑标记
   if (isEditing) {
     const marker = isEditing;
     const oldData = {
@@ -700,7 +657,6 @@ dialogOk.addEventListener('click', () => {
       }
     );
   }
-  // 新建标记
   else if (pendingCoord) {
     doAction(
       () => { createMarker(x, y, type, name, intro, layer); },
@@ -714,9 +670,7 @@ dialogOk.addEventListener('click', () => {
   updateBindLines();
   saveMarkers();
 });
-/* 点击取消 */
 dialogCancel.addEventListener('click', clearDialog);
-/* 重置弹窗状态 */
 function clearDialog() {
   pendingCoord = null;
   markerNameInput.value = "";
@@ -728,7 +682,6 @@ function clearDialog() {
   document.getElementById('dialog-overlay').style.display = 'none';
   isEditing = null;
 }
-/* 把当前标记的信息填充到编辑对话框里，并显示对话框，不修改标记数据 */
 function editMarker(marker) {
   isEditing = marker;
   markerTypeSelect.value = marker.dataset.type;
@@ -744,7 +697,6 @@ function editMarker(marker) {
   dialog.style.display = 'block';
   document.getElementById('dialog-overlay').style.display = 'block';
 }
-/* 绑定 */
 function bindMarkerAction(marker) {
   if (!bindSource) {
     bindSource = marker;
@@ -767,7 +719,6 @@ function bindMarkerAction(marker) {
         bindSource.dataset.bindIds = JSON.stringify(oldBindIds.filter(id => id !== targetId));
       }
     );
-    // 箭头绑定额外逻辑
     const arrowTypes = ["上箭头", "下箭头", "左箭头", "右箭头"];
     if (arrowTypes.includes(bindSource.dataset.type)) {
       bindSource.dataset.mapX = marker.dataset.mapX;
@@ -780,7 +731,6 @@ function bindMarkerAction(marker) {
     saveMarkers();
   }
 }
-/* 取消绑定 */
 function unbind(marker){
   const id = marker.dataset.id;
   document.querySelectorAll('.marker').forEach(m => {
@@ -799,7 +749,6 @@ function unbind(marker){
   updateBindLines();
   saveMarkers();
 }
-/* 删除 */
 function deleteMarker(marker) {
   const markerData = {
     x: marker.dataset.mapX,
@@ -830,7 +779,6 @@ function deleteMarker(marker) {
   saveMarkers();
   updateBindLines();
 }
-/* 删除同类 */
 function deleteSameMarker(marker) {
   const type = marker.dataset.type;
   const name = marker.dataset.name;
@@ -867,7 +815,6 @@ function deleteSameMarker(marker) {
   saveMarkers();
   updateBindLines();
 }
-/* 面板 */
 const Panel1 = document.getElementById('panel1');
 const toggleButton = document.getElementById('button1');
 function updatePanelDisplay()
@@ -880,7 +827,6 @@ function updatePanelDisplay()
     toggleButton.textContent = '隐藏面板';
   }
 }
-/* 按钮1-显示/隐藏面板 */
 toggleButton.addEventListener('click', (e) => {
   e.stopPropagation();
   const display = window.getComputedStyle(Panel1).display;
@@ -893,7 +839,6 @@ toggleButton.addEventListener('click', (e) => {
   updateBindLines();
 });
 updatePanelDisplay();
-/* 按钮2-导入标记 */
 const importBtn = document.getElementById('button2');
 importBtn.addEventListener('click', () => {
   const input = document.createElement('input');
@@ -919,7 +864,6 @@ importBtn.addEventListener('click', () => {
   });
   input.click();
 });
-/* 按钮3-导出标记 */
 const exportBtn = document.getElementById('button3');
 exportBtn.addEventListener('click', () => {
   const markers = [];
@@ -944,7 +888,6 @@ exportBtn.addEventListener('click', () => {
   a.click();
   URL.revokeObjectURL(url);
 });
-/* 搜索栏 */
 let searchResults = [];
 let currentSearchIndex = -1;
 const searchInput = document.getElementById('marker-search');
@@ -990,7 +933,6 @@ searchInput.addEventListener('input', () => {
   }
   updateBindLines();
 });
-/* 图层开关 */
 document.querySelectorAll('#layer-toggle button').forEach(btn => {
   btn.addEventListener('click', () => {
     const layerId = 'layer' + btn.dataset.layer;
@@ -1005,7 +947,6 @@ document.querySelectorAll('#layer-toggle button').forEach(btn => {
     updateBindLines();
   });
 });
-/* 类型开关 */
 const typeToggleDiv = document.getElementById('type-toggle');
 markerTypes.forEach(type => {
   const btn = document.createElement('button');
@@ -1022,7 +963,6 @@ markerTypes.forEach(type => {
   });
   typeToggleDiv.appendChild(btn);
 });
-/* 清空标记 */
 const clearMarkersBtn = document.getElementById('panel1-btn3');
 clearMarkersBtn.addEventListener('click', () => {
   if (!confirm('确定要清空所有标记吗？')) return;
@@ -1031,7 +971,6 @@ clearMarkersBtn.addEventListener('click', () => {
   showMoveTip('所有标记已清空');
   updateBindLines();
 });
-/* 重置标记 */
 const resetMarkersBtn = document.getElementById('panel1-btn4');
 resetMarkersBtn.addEventListener('click', async () => {
   if (!confirm('确定要重置所有标记吗')) return;
@@ -1043,7 +982,6 @@ resetMarkersBtn.addEventListener('click', async () => {
   updateBindLines();
   showMoveTip('已重置标记为默认');
 });
-/* 显示/隐藏透明标记 */
 const toggleTransparentBtn = document.getElementById('panel1-btn5');
 let transparentVisible = true;
 toggleTransparentBtn.textContent = '隐藏透明';
@@ -1063,7 +1001,6 @@ toggleTransparentBtn.addEventListener('click', () => {
   toggleTransparentBtn.style.backgroundColor = transparentVisible ? 'gray' : '';
   updateBindLines();
 });
-/**/
 const typeButtons = Array.from(typeToggleDiv.querySelectorAll('button'));
 document.getElementById('type-button1').addEventListener('click', () => {
   typeButtons.forEach(btn => {
@@ -1083,7 +1020,6 @@ document.getElementById('type-button2').addEventListener('click', () => {
     updateBindLines();
   });
 });
-/* 展开/折叠类型列表*/
 const typeToggleBtn = document.getElementById('panel1-btn7');
 let typeToggleExpanded = false;
 typeToggleDiv.style.display = 'none';
@@ -1098,7 +1034,6 @@ typeToggleBtn.addEventListener('click', () => {
   updateBindLines();
 });
 updateTypeToggleButton();
-/* 定位 */
 const locateBtn = document.getElementById('panel1-btn1');
 locateBtn.addEventListener('click', () => {
   if (searchResults.length === 0) {
@@ -1111,22 +1046,31 @@ locateBtn.addEventListener('click', () => {
   originY = mapbackground.clientHeight / 2 - (parseFloat(targetMarker.dataset.mapY) * scale);
   updateTransform();
 });
-/* 清除结果 */
 const clearSearchBtn = document.getElementById('panel1-btn2');
 clearSearchBtn.addEventListener('click', () => {
   searchInput.value = "";
   const markers = document.querySelectorAll('.marker');
   markers.forEach(marker => {
-    marker.style.display = "block";
     marker.style.outline = "";
     marker.style.outlineOffset = "";
+    if (marker.dataset.dimmed === "1" && !transparentVisible) {
+      marker.style.display = "none";
+    }
+    else {
+      const typeBtn = typeToggleDiv.querySelector(`button[data-type="${marker.dataset.type}"]`);
+      if (typeBtn && typeBtn.dataset.hidden === "1") {
+        marker.style.display = "none";
+      } else {
+        marker.style.display = "block";
+      }
+    }
   });
   searchInput.style.color = "";
   searchInput.style.fontWeight = "";
   searchResults = [];
   currentSearchIndex = -1;
+  updateBindLines();
 });
-/* 重置透明标记 */
 const resetDimmedBtn = document.getElementById('panel1-btn6');
 resetDimmedBtn.addEventListener('click', () => {
   if (!confirm('确定要重置透明标记吗？')) return;
@@ -1139,7 +1083,6 @@ resetDimmedBtn.addEventListener('click', () => {
   updateBindLines();
   showMoveTip('所有透明标记已重置');
 });
-/* 右下角弹窗提示 */
 function showMoveTip(text, duration = 1500) {
   globalTip.textContent = text;
   globalTip.style.opacity = 1;
@@ -1149,7 +1092,6 @@ function showMoveTip(text, duration = 1500) {
     }, duration);
   }
 }
-/* 悬浮提示 */
 const tooltip = document.getElementById('tooltip');
 function showTooltip(marker, e) {
   tooltip.innerText = marker.dataset.name + "\n" + marker.dataset.intro;
@@ -1164,7 +1106,6 @@ function moveTooltip(e) {
 function hideTooltip() {
   tooltip.style.display = "none";
 }
-/* 保存标记 */
 function saveMarkers() {
   const markers = [];
   document.querySelectorAll('.marker').forEach(marker => {
@@ -1183,7 +1124,6 @@ function saveMarkers() {
   });
   localStorage.setItem('markers', JSON.stringify(markers));
 }
-/* 加载标记 */
 async function loadMarkers() {
   const STORAGE_KEY = 'markers';
   const INIT_KEY = 'markers_initialized';
