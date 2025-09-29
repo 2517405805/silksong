@@ -690,6 +690,7 @@ exportBtn.addEventListener('click', () => {
       intro: marker.dataset.intro,
       layer: marker.dataset.layer,
       bindIds: JSON.parse(marker.dataset.bindIds || '[]'),
+      bindIds2: JSON.parse(marker.dataset.bindIds2 || '[]'),
       dimmed: marker.dataset.dimmed
     });
   });
@@ -1081,6 +1082,13 @@ function setMarkerDimmed(marker, dimmed, visited = new Set()) {
       setMarkerDimmed(linked, dimmed, visited);
     }
   });
+  const binds2 = JSON.parse(marker.dataset.bindIds2 || '[]');
+  binds2.forEach(bindId => {
+    const linked = document.querySelector(`.marker[data-id="${bindId}"]`);
+    if (linked) {
+      setMarkerDimmed(linked, dimmed, visited);
+    }
+  });
 }
 function hideMarkerWithBinds(marker, hidden, visited = new Set()) {
   const id = marker.dataset.id;
@@ -1089,6 +1097,11 @@ function hideMarkerWithBinds(marker, hidden, visited = new Set()) {
   marker.style.display = hidden ? 'none' : 'block';
   const binds = JSON.parse(marker.dataset.bindIds || '[]');
   binds.forEach(bindId => {
+    const linked = document.querySelector(`.marker[data-id="${bindId}"]`);
+    if (linked) hideMarkerWithBinds(linked, hidden, visited);
+  });
+  const binds2 = JSON.parse(marker.dataset.bindIds2 || '[]');
+  binds2.forEach(bindId => {
     const linked = document.querySelector(`.marker[data-id="${bindId}"]`);
     if (linked) hideMarkerWithBinds(linked, hidden, visited);
   });
