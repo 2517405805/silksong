@@ -202,7 +202,7 @@ mapbackground.addEventListener('wheel', e => {
   const mouseX = (e.clientX - originX)/scale;
   const mouseY = (e.clientY - originY)/scale;
   scale *= (e.deltaY < 0 ? scaleFactor : 1/scaleFactor);
-  scale = Math.min(Math.max(scale, 0.1), 5);
+  scale = Math.min(Math.max(scale, 0.3), 5);
   originX = e.clientX - mouseX * scale;
   originY = e.clientY - mouseY * scale;
   updateTransform();
@@ -525,6 +525,7 @@ function bindMarkerAction2(marker) {
     bindSource2 = null;
     showMoveTip('虚绑定成功');
     updateBindLines();
+    updateTransform();
     saveMarkers();
   }
 }
@@ -1069,7 +1070,7 @@ function setMarkerDimmed(marker, dimmed, visited = new Set()) {
   if (visited.has(id)) return;
   visited.add(id);
   marker.dataset.dimmed = dimmed;
-  marker.style.opacity = dimmed === "1" ? 0.3 : 1;
+  marker.style.opacity = dimmed === "1" ? 0.2 : 1;
   if (dimmed === "1") {
     marker.style.display = transparentVisible ? 'block' : 'none';
   } else {
@@ -1113,18 +1114,24 @@ function resizeCanvas() {
 window.addEventListener("resize", resizeCanvas);
 resizeCanvas();
 function updateBindLines() {
+  bindCanvas.width = mapbackground.clientWidth;
+  bindCanvas.height = mapbackground.clientHeight;
   bindCtx.clearRect(0, 0, bindCanvas.width, bindCanvas.height);
   document.querySelectorAll(".marker").forEach(marker => {
     const parentLayer = marker.parentElement;
-    if (!marker.style.display || marker.style.display === "none" || marker.dataset.dimmed === "1" || !parentLayer || parentLayer.style.display === "none") return;
-    const x1 = parseFloat(marker.style.left);
-    const y1 = parseFloat(marker.style.top);
+    const markerStyle = getComputedStyle(marker);
+    const parentStyle = parentLayer ? getComputedStyle(parentLayer) : null;
+    if (markerStyle.display === "none" || marker.dataset.dimmed === "1" || !parentLayer || (parentStyle && parentStyle.display === "none")) return;
+    const x1 = parseFloat(marker.dataset.mapX) * scale + originX;
+    const y1 = parseFloat(marker.dataset.mapY) * scale + originY;
     const binds1 = JSON.parse(marker.dataset.bindIds || "[]");
     binds1.forEach(id => {
       const target = document.querySelector(`.marker[data-id="${id}"]`);
-      if (!target || target.style.display === "none" || target.dataset.dimmed === "1" || target.parentElement.style.display === "none") return;
-      const x2 = parseFloat(target.style.left);
-      const y2 = parseFloat(target.style.top);
+      if (!target || target.style.display === "none" ||
+          target.dataset.dimmed === "1" ||
+          target.parentElement.style.display === "none") return;
+      const x2 = parseFloat(target.dataset.mapX) * scale + originX;
+      const y2 = parseFloat(target.dataset.mapY) * scale + originY;
       bindCtx.beginPath();
       bindCtx.moveTo(x1, y1);
       bindCtx.lineTo(x2, y2);
@@ -1135,10 +1142,12 @@ function updateBindLines() {
     const binds2 = JSON.parse(marker.dataset.bindIds2 || "[]");
     binds2.forEach(id => {
       const target = document.querySelector(`.marker[data-id="${id}"]`);
-      if (!target || target.style.display === "none" || target.dataset.dimmed === "1" || target.parentElement.style.display === "none") return;
+      if (!target || target.style.display === "none" ||
+          target.dataset.dimmed === "1" ||
+          target.parentElement.style.display === "none") return;
       if (hoveredMarker && (marker === hoveredMarker || target === hoveredMarker)) {
-        const x2 = parseFloat(target.style.left);
-        const y2 = parseFloat(target.style.top);
+        const x2 = parseFloat(target.dataset.mapX) * scale + originX;
+        const y2 = parseFloat(target.dataset.mapY) * scale + originY;
         bindCtx.beginPath();
         bindCtx.moveTo(x1, y1);
         bindCtx.lineTo(x2, y2);
