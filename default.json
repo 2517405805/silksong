@@ -8,6 +8,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -19,6 +20,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -30,6 +32,7 @@
     "intro": "需要织亿弦针",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -41,6 +44,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -52,6 +56,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -63,6 +68,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -74,6 +80,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -87,6 +94,7 @@
     "bindIds": [
       "25"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -98,6 +106,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -109,6 +118,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -120,6 +130,7 @@
     "intro": "需要钢魂模式+完成失踪仆从任务",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -133,6 +144,7 @@
     "bindIds": [
       "35"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -144,6 +156,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -155,6 +168,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -166,6 +180,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -177,6 +192,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -188,6 +204,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -199,6 +216,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -210,6 +228,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -221,6 +240,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -232,6 +252,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -243,6 +264,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -254,6 +276,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -267,6 +290,7 @@
     "bindIds": [
       "221"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -278,6 +302,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -289,6 +314,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -300,6 +326,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -311,6 +338,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -322,6 +350,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -333,6 +362,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -344,17 +374,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 236,
-    "x": "707.39",
-    "y": "1796.67",
-    "type": "长椅",
-    "name": "长椅",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -366,6 +386,7 @@
     "intro": "需要跳蚤团任务",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -377,6 +398,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -388,6 +410,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -399,6 +422,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -410,6 +434,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -421,6 +446,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -432,6 +458,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -443,6 +470,7 @@
     "intro": "可以打破机关避免二次缴费",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -454,6 +482,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -468,6 +497,7 @@
       "8168",
       "8167"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -479,6 +509,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -490,6 +521,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -501,6 +533,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -512,6 +545,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -525,6 +559,7 @@
     "bindIds": [
       "300"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -536,6 +571,7 @@
     "intro": "需要简易钥匙",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -549,6 +585,7 @@
     "bindIds": [
       "302"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -560,6 +597,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -571,30 +609,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 307,
-    "x": "544.67",
-    "y": "2404.88",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 298,
-    "x": "628.01",
-    "y": "2383.55",
-    "type": "跳蚤",
-    "name": "跳蚤",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "307"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -606,6 +621,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -617,6 +633,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -628,6 +645,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -639,6 +657,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -652,6 +671,7 @@
     "bindIds": [
       "492"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -663,6 +683,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -674,17 +695,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 995,
-    "x": "390.96",
-    "y": "2494.21",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -696,6 +707,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -709,19 +721,7 @@
     "bindIds": [
       "1003"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 1008,
-    "x": "616.29",
-    "y": "2745.85",
-    "type": "BOSS",
-    "name": "苔藓之母x2",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "3951"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -735,6 +735,7 @@
     "bindIds": [
       "22618"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -746,6 +747,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -757,6 +759,7 @@
     "intro": "需要击败黑寡妇",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -768,6 +771,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -779,6 +783,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -790,55 +795,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1040,
-    "x": "1025.00",
-    "y": "2445.00",
-    "type": "商人",
-    "name": "制图师",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "1044",
-      "1043",
-      "1041",
-      "1042"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 1041,
-    "x": "1030.00",
-    "y": "2430.00",
-    "type": "区域地图",
-    "name": "苔穴区域地图",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1042,
-    "x": "1040.00",
-    "y": "2430.00",
-    "type": "区域地图",
-    "name": "髓骨洞窟区域地图",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1043,
-    "x": "1020.00",
-    "y": "2430.00",
-    "type": "工具",
-    "name": "鹅毛笔",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -850,6 +807,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -861,6 +819,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -872,6 +831,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -885,6 +845,7 @@
     "bindIds": [
       "1050"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -896,6 +857,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -907,6 +869,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -918,6 +881,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -931,6 +895,7 @@
     "bindIds": [
       "1057"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -944,6 +909,7 @@
     "bindIds": [
       "1009"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -955,6 +921,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -965,9 +932,8 @@
     "name": "制造金属",
     "intro": "",
     "layer": "1",
-    "bindIds": [
-      "21943"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -979,6 +945,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -990,6 +957,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1001,17 +969,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1074,
-    "x": "2054.66",
-    "y": "2396.21",
-    "type": "竞技场",
-    "name": "竞技场",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1023,6 +981,7 @@
     "intro": "隐藏房间",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1033,7 +992,8 @@
     "name": "门",
     "intro": "互通门",
     "layer": "1",
-    "bindIds": [
+    "bindIds": [],
+    "bindIds2": [
       "1093"
     ],
     "dimmed": "0"
@@ -1047,6 +1007,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1062,6 +1023,7 @@
       "1100",
       "1102"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1073,17 +1035,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1101,
-    "x": "2740.00",
-    "y": "2430.00",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1095,6 +1047,7 @@
     "intro": "受伤后有更长的无敌帧并减少击退",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1106,6 +1059,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1119,6 +1073,7 @@
     "bindIds": [
       "1180"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1130,6 +1085,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1143,6 +1099,7 @@
     "bindIds": [
       "1182"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1154,6 +1111,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1165,6 +1123,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1176,6 +1135,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1187,6 +1147,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1198,6 +1159,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1209,6 +1171,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1220,6 +1183,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1231,6 +1195,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1242,6 +1207,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1255,6 +1221,7 @@
     "bindIds": [
       "1198"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1266,6 +1233,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1277,6 +1245,7 @@
     "intro": "需要织亿弦针",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1288,17 +1257,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1544,
-    "x": "3459.00",
-    "y": "2678.52",
-    "type": "工具",
-    "name": "丝速脚环",
-    "intro": "需要4格速度",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1310,6 +1269,7 @@
     "intro": "需要丝速脚环+跳蚤酒的8速",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1321,17 +1281,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1547,
-    "x": "2470.79",
-    "y": "2428.06",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1343,6 +1293,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1354,6 +1305,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1367,6 +1319,7 @@
     "bindIds": [
       "1550"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1378,6 +1331,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1389,6 +1343,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1400,6 +1355,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1413,6 +1369,7 @@
     "bindIds": [
       "1556"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1424,6 +1381,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1437,6 +1395,7 @@
     "bindIds": [
       "1558"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1448,6 +1407,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1459,6 +1419,7 @@
     "intro": "需要疾风步",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1470,6 +1431,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1483,6 +1445,7 @@
     "bindIds": [
       "1563"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1494,6 +1457,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1505,6 +1469,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1516,6 +1481,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1527,6 +1493,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1540,17 +1507,7 @@
     "bindIds": [
       "1570"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 1574,
-    "x": "1770.43",
-    "y": "2558.76",
-    "type": "右箭头",
-    "name": "右箭头",
-    "intro": "需要蛛攀术",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1562,6 +1519,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1573,6 +1531,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1584,6 +1543,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1597,6 +1557,7 @@
     "bindIds": [
       "18922"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1608,6 +1569,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1619,6 +1581,7 @@
     "intro": "需要飞针冲刺",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1632,6 +1595,7 @@
     "bindIds": [
       "2061"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1643,6 +1607,7 @@
     "intro": "左侧简易钥匙或者右侧开启",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1654,6 +1619,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1667,6 +1633,7 @@
     "bindIds": [
       "2063"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1683,6 +1650,7 @@
       "3895",
       "3898"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1694,6 +1662,9 @@
     "intro": "损坏的工具修复",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [
+      "24798"
+    ],
     "dimmed": "0"
   },
   {
@@ -1705,6 +1676,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1716,6 +1688,7 @@
     "intro": "降低火焰伤害",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1727,6 +1700,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1738,6 +1712,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1751,6 +1726,7 @@
     "bindIds": [
       "3899"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1762,17 +1738,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 3935,
-    "x": "1164.96",
-    "y": "2685.19",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1786,6 +1752,7 @@
     "bindIds": [
       "3935"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1797,6 +1764,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1808,6 +1776,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1819,6 +1788,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1836,17 +1806,7 @@
       "3946",
       "18828"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 3948,
-    "x": "949.27",
-    "y": "2746.79",
-    "type": "左箭头",
-    "name": "左箭头",
-    "intro": "隐藏房间，游泳进入",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1858,6 +1818,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1869,30 +1830,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 3951,
-    "x": "638.15",
-    "y": "2744.84",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 3952,
-    "x": "594.82",
-    "y": "2745.84",
-    "type": "工具",
-    "name": "织光仪",
-    "intro": "增加灵丝再生速度",
-    "layer": "1",
-    "bindIds": [
-      "1008"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1904,6 +1842,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1915,6 +1854,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1926,6 +1866,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1937,6 +1878,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1948,6 +1890,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1961,6 +1904,7 @@
     "bindIds": [
       "3963"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1972,6 +1916,7 @@
     "intro": "仅限钢魂模式",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1983,6 +1928,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -1996,6 +1942,7 @@
     "bindIds": [
       "3966"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2007,6 +1954,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2018,6 +1966,7 @@
     "intro": "游泳到另一侧",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2029,6 +1978,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2042,6 +1992,7 @@
     "bindIds": [
       "3973"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2053,6 +2004,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2064,6 +2016,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2075,6 +2028,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2086,6 +2040,7 @@
     "intro": "需要第三幕+织亿弦针+解救绿王子",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2097,6 +2052,9 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [
+      "18924"
+    ],
     "dimmed": "0"
   },
   {
@@ -2108,6 +2066,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2119,6 +2078,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2132,19 +2092,7 @@
     "bindIds": [
       "6626"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 6628,
-    "x": "1324.19",
-    "y": "2337.60",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "6627"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2156,6 +2104,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2169,6 +2118,7 @@
     "bindIds": [
       "6629"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2180,6 +2130,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2191,6 +2142,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2202,6 +2154,7 @@
     "intro": "隐藏房间",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2215,6 +2168,7 @@
     "bindIds": [
       "6643"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2226,6 +2180,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2239,6 +2194,7 @@
     "bindIds": [
       "6647"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2250,6 +2206,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2263,6 +2220,7 @@
     "bindIds": [
       "6652"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2274,6 +2232,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2287,6 +2246,7 @@
     "bindIds": [
       "6651"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2298,6 +2258,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2309,6 +2270,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2320,6 +2282,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2331,6 +2294,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2342,6 +2306,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2353,6 +2318,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2364,6 +2330,7 @@
     "intro": "需要二段跳",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2375,6 +2342,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2386,6 +2354,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2397,6 +2366,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2408,6 +2378,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2419,6 +2390,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2432,6 +2404,7 @@
     "bindIds": [
       "6681"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2443,6 +2416,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2454,6 +2428,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2465,6 +2440,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2476,6 +2452,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2487,6 +2464,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2500,6 +2478,7 @@
     "bindIds": [
       "6696"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2511,6 +2490,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2522,6 +2502,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2533,6 +2514,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2548,17 +2530,7 @@
       "6709",
       "6710"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 6709,
-    "x": "1620.00",
-    "y": "2245.00",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2570,6 +2542,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2581,6 +2554,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2592,6 +2566,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2605,6 +2580,7 @@
     "bindIds": [
       "6721"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2616,6 +2592,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2629,6 +2606,7 @@
     "bindIds": [
       "6727"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2640,6 +2618,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2653,6 +2632,7 @@
     "bindIds": [
       "6726"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2664,6 +2644,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2677,6 +2658,7 @@
     "bindIds": [
       "6728"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2688,6 +2670,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2701,6 +2684,7 @@
     "bindIds": [
       "6730"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2712,6 +2696,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2723,6 +2708,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2734,6 +2720,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2745,6 +2732,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2758,17 +2746,7 @@
     "bindIds": [
       "6937"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 6937,
-    "x": "1151.00",
-    "y": "2111.52",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2780,6 +2758,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2791,6 +2770,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2804,6 +2784,7 @@
     "bindIds": [
       "6939"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2815,6 +2796,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2826,6 +2808,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2839,6 +2822,7 @@
     "bindIds": [
       "6951"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2850,6 +2834,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2861,6 +2846,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2872,6 +2858,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2883,6 +2870,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2894,6 +2882,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2905,17 +2894,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 8075,
-    "x": "677.66",
-    "y": "1797.17",
-    "type": "铃道",
-    "name": "铃道",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2927,6 +2906,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2938,6 +2918,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2949,6 +2930,7 @@
     "intro": "需要找到14个跳蚤",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2960,17 +2942,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 8141,
-    "x": "672.93",
-    "y": "1982.01",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2984,6 +2956,7 @@
     "bindIds": [
       "8565"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -2995,6 +2968,7 @@
     "intro": "需要简易钥匙",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3006,6 +2980,7 @@
     "intro": "需要二段跳（也可勾引单位）",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3017,6 +2992,7 @@
     "intro": "增加造成/受到的伤害",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3028,6 +3004,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3041,6 +3018,7 @@
     "bindIds": [
       "8160"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3052,6 +3030,7 @@
     "intro": "钟心镇寻虫启事委托",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3063,6 +3042,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3076,6 +3056,7 @@
     "bindIds": [
       "8164"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3087,6 +3068,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3100,6 +3082,7 @@
     "bindIds": [
       "8166"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3111,6 +3094,7 @@
     "intro": "需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3122,6 +3106,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3133,6 +3118,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3146,6 +3132,7 @@
     "bindIds": [
       "8170"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3157,6 +3144,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3168,6 +3156,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3179,6 +3168,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3192,6 +3182,7 @@
     "bindIds": [
       "8174"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3203,6 +3194,7 @@
     "intro": "对萤火虫使用织亿弦针引导方向",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3214,6 +3206,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3227,6 +3220,7 @@
     "bindIds": [
       "8177"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3238,6 +3232,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3249,17 +3244,7 @@
     "intro": "需要钢魂模式",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 8568,
-    "x": "415.85",
-    "y": "1813.07",
-    "type": "工具",
-    "name": "磁石骰",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3273,6 +3258,7 @@
     "bindIds": [
       "8572"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3284,6 +3270,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3297,6 +3284,7 @@
     "bindIds": [
       "8574"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3308,17 +3296,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 12997,
-    "x": "2455.00",
-    "y": "1700.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3330,6 +3308,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3341,6 +3320,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3352,6 +3332,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3363,6 +3344,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3376,6 +3358,7 @@
     "bindIds": [
       "15063"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3387,6 +3370,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3403,6 +3387,7 @@
       "174",
       "207"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3414,6 +3399,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3425,6 +3411,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3436,6 +3423,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3447,6 +3435,7 @@
     "intro": "捐200甲壳碎片",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3458,6 +3447,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3471,6 +3461,7 @@
     "bindIds": [
       "1568"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3482,6 +3473,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3493,6 +3485,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3504,6 +3497,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3515,6 +3509,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3526,6 +3521,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3537,6 +3533,7 @@
     "intro": "击败骷髅暴君后在长椅休息出现",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3551,6 +3548,7 @@
       "15062",
       "229"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3562,6 +3560,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3575,6 +3574,7 @@
     "bindIds": [
       "105"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3586,6 +3586,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3597,6 +3598,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3610,6 +3612,7 @@
     "bindIds": [
       "1005"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3621,6 +3624,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3632,6 +3636,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3645,6 +3650,7 @@
     "bindIds": [
       "17696"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3656,6 +3662,15 @@
     "intro": "收集3个苔莓，奖励德鲁伊之眼、苔莓浓汤",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [
+      "11",
+      "16",
+      "3950",
+      "219",
+      "21085",
+      "220",
+      "18701"
+    ],
     "dimmed": "0"
   },
   {
@@ -3669,6 +3684,7 @@
     "bindIds": [
       "15065"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3680,6 +3696,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3691,6 +3708,7 @@
     "intro": "25",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3702,17 +3720,7 @@
     "intro": "16",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1076,
-    "x": "1475.00",
-    "y": "2365.00",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3724,6 +3732,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3735,6 +3744,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3746,6 +3756,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3757,41 +3768,7 @@
     "intro": "完成洛迪的第一个挑战，或者第三幕直接拾取",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 17699,
-    "x": "1525.00",
-    "y": "2570.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "15061"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 15061,
-    "x": "1430.00",
-    "y": "2570.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1075,
-    "x": "2065.00",
-    "y": "2405.00",
-    "type": "区域地图",
-    "name": "猎者小径区域地图1",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3803,6 +3780,7 @@
     "intro": "隐藏房间",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3814,6 +3792,7 @@
     "intro": "收集12个披肩，奖励念珠",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3825,6 +3804,7 @@
     "intro": "捐赠300甲壳碎片",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3836,18 +3816,9 @@
     "intro": "收集3个燧晶，奖励亿境纪念盒",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 216,
-    "x": "885.00",
-    "y": "2530.00",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "完成爆裂燧甲虫委托，需要收集3个燧晶",
-    "layer": "1",
-    "bindIds": [
-      "18924"
+    "bindIds2": [
+      "1048",
+      "1064"
     ],
     "dimmed": "0"
   },
@@ -3860,17 +3831,7 @@
     "intro": "50",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 223,
-    "x": "960.00",
-    "y": "2480.00",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3881,9 +3842,8 @@
     "name": "灵线轴碎片",
     "intro": "",
     "layer": "1",
-    "bindIds": [
-      "223"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3895,6 +3855,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3908,6 +3869,7 @@
     "bindIds": [
       "1014"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3919,6 +3881,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3930,6 +3893,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3943,6 +3907,7 @@
     "bindIds": [
       "19625"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3954,6 +3919,7 @@
     "intro": "需要收集5只跳蚤",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3965,6 +3931,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3976,6 +3943,7 @@
     "intro": "完成跳蚤任务移动到位置2",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3987,6 +3955,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -3998,6 +3967,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4009,6 +3979,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4020,6 +3991,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4031,30 +4003,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 6737,
-    "x": "1310.00",
-    "y": "2130.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 19627,
-    "x": "1310.00",
-    "y": "2220.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "6737"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4066,6 +4015,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4077,6 +4027,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4088,6 +4039,7 @@
     "intro": "75",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4099,30 +4051,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 19629,
-    "x": "1390.00",
-    "y": "2130.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 6734,
-    "x": "1390.00",
-    "y": "2050.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "19629"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4134,6 +4063,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4145,6 +4075,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4158,6 +4089,7 @@
     "bindIds": [
       "6930"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4169,6 +4101,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4182,6 +4115,7 @@
     "bindIds": [
       "1019"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4193,19 +4127,7 @@
     "intro": "需要击败黑寡妇",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 19630,
-    "x": "1735.00",
-    "y": "2225.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "6694"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4217,6 +4139,7 @@
     "intro": "收集8个铃铛",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4228,6 +4151,7 @@
     "intro": "收集苍白油升级骨钉\n1.击败黑寡妇\n2.完成针匠之油委托\n3.完成纺络珍馐委托\n4.完成终末狂欢委托",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4239,6 +4163,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4252,6 +4177,7 @@
     "bindIds": [
       "21947"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4265,30 +4191,7 @@
     "bindIds": [
       "6687"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 6657,
-    "x": "2230.00",
-    "y": "2070.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "19640"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 19640,
-    "x": "2230.00",
-    "y": "2120.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4299,9 +4202,8 @@
     "name": "竞技场",
     "intro": "",
     "layer": "1",
-    "bindIds": [
-      "1574"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4312,9 +4214,8 @@
     "name": "面甲残片",
     "intro": "",
     "layer": "1",
-    "bindIds": [
-      "1572"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4326,6 +4227,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4337,6 +4239,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4350,6 +4253,7 @@
     "bindIds": [
       "1081"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4363,6 +4267,7 @@
     "bindIds": [
       "1086"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4374,6 +4279,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4385,6 +4291,7 @@
     "intro": "45",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4396,6 +4303,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4409,6 +4317,7 @@
     "bindIds": [
       "19655"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4420,6 +4329,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4433,6 +4343,7 @@
     "bindIds": [
       "1029"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4444,6 +4355,7 @@
     "intro": "捐赠440甲壳碎片",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4455,6 +4367,7 @@
     "intro": "跳蚤隐藏房间",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4466,6 +4379,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4479,6 +4393,7 @@
     "bindIds": [
       "21083"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4492,6 +4407,7 @@
     "bindIds": [
       "28"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4503,6 +4419,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4514,6 +4431,7 @@
     "intro": "收集生质液",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4527,6 +4445,7 @@
     "bindIds": [
       "21084"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4538,6 +4457,7 @@
     "intro": "猎杀髓骨洞窟的骷髅暴君，交付王冠碎片，奖励念珠",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4549,6 +4469,7 @@
     "intro": "被虫子叼着",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4560,6 +4481,7 @@
     "intro": "被虫子叼着",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4571,6 +4493,7 @@
     "intro": "完成钟心镇-清理腐虫委托",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4582,6 +4505,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4595,6 +4519,7 @@
     "bindIds": [
       "1"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4608,17 +4533,7 @@
     "bindIds": [
       "4"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 17696,
-    "x": "1000.00",
-    "y": "2400.00",
-    "type": "右箭头",
-    "name": "右箭头",
-    "intro": "隐藏房间",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4630,6 +4545,7 @@
     "intro": "“名刀”",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4643,6 +4559,7 @@
     "bindIds": [
       "18276"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4654,6 +4571,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4665,6 +4583,7 @@
     "intro": "收集25个棘刺芯",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4678,6 +4597,7 @@
     "bindIds": [
       "15768"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4691,6 +4611,7 @@
     "bindIds": [
       "18"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4702,6 +4623,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4713,6 +4635,7 @@
     "intro": "40",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4724,6 +4647,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4737,17 +4661,7 @@
     "bindIds": [
       "1076"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 21943,
-    "x": "1470.00",
-    "y": "2450.00",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4761,6 +4675,7 @@
     "bindIds": [
       "178"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4774,17 +4689,7 @@
     "bindIds": [
       "33"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 1044,
-    "x": "1010.00",
-    "y": "2430.00",
-    "type": "工具",
-    "name": "罗盘",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4798,6 +4703,7 @@
     "bindIds": [
       "1554"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4809,6 +4715,7 @@
     "intro": "26",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4820,6 +4727,7 @@
     "intro": "25",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4831,6 +4739,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4842,6 +4751,7 @@
     "intro": "20？",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4853,6 +4763,7 @@
     "intro": "30？",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4864,6 +4775,7 @@
     "intro": "155！！！需要蛛攀术",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4875,6 +4787,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4886,6 +4799,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4897,17 +4811,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 6684,
-    "x": "2115.00",
-    "y": "2195.00",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4921,6 +4825,7 @@
     "bindIds": [
       "21946"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4932,6 +4837,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4943,6 +4849,7 @@
     "intro": "40",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4954,6 +4861,7 @@
     "intro": "28",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4965,6 +4873,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -4976,43 +4885,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18445,
-    "x": "2344.57",
-    "y": "1723.29",
-    "type": "跳蚤",
-    "name": "跳蚤",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "21948"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 21948,
-    "x": "2440.00",
-    "y": "1720.00",
-    "type": "左箭头",
-    "name": "左箭头",
-    "intro": "隐藏通道",
-    "layer": "1",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18611,
-    "x": "2455.00",
-    "y": "1550.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "12997"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5024,6 +4897,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5035,6 +4909,7 @@
     "intro": "20",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5048,6 +4923,7 @@
     "bindIds": [
       "110"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5059,6 +4935,7 @@
     "intro": "45",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5070,6 +4947,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5083,6 +4961,7 @@
     "bindIds": [
       "22617"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5094,6 +4973,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5105,6 +4985,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5116,6 +4997,7 @@
     "intro": "收集6个花芯",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5129,6 +5011,7 @@
     "bindIds": [
       "19637"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5140,6 +5023,7 @@
     "intro": "找到送货员蒂普",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5151,6 +5035,7 @@
     "intro": "寻找送货员皮尔",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5162,6 +5047,7 @@
     "intro": "在远野击败残暴的兽蝇",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5173,6 +5059,7 @@
     "intro": "捐赠250念珠",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5184,6 +5071,7 @@
     "intro": "捐赠400念珠",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5198,6 +5086,7 @@
       "19653",
       "19658"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5209,6 +5098,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5220,6 +5110,7 @@
     "intro": "28",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5231,6 +5122,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5242,6 +5134,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5253,6 +5146,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5264,6 +5158,7 @@
     "intro": "30",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5275,6 +5170,7 @@
     "intro": "120",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5286,6 +5182,7 @@
     "intro": "15",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5297,6 +5194,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5308,6 +5206,7 @@
     "intro": "延长缚丝时间提高治疗量，需要找到送货员",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5319,6 +5218,7 @@
     "intro": "需要找到送货员蒂普",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5332,6 +5232,7 @@
     "bindIds": [
       "265"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5343,6 +5244,7 @@
     "intro": "临时椅子，当制图师存在时",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5356,6 +5258,7 @@
     "bindIds": [
       "6634"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5367,6 +5270,7 @@
     "intro": "隐藏房间",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5378,19 +5282,7 @@
     "intro": "气流",
     "layer": "1",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1203,
-    "x": "3020.00",
-    "y": "2640.00",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "1204"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5402,21 +5294,10 @@
     "intro": "",
     "layer": "1",
     "bindIds": [
-      "24135"
+      "24135",
+      "1204"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 24135,
-    "x": "3020.00",
-    "y": "2640.00",
-    "type": "左箭头",
-    "name": "左箭头",
-    "intro": "",
-    "layer": "1",
-    "bindIds": [
-      "1203"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5428,6 +5309,7 @@
     "intro": "112",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5439,6 +5321,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5452,6 +5335,7 @@
     "bindIds": [
       "24136"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5465,6 +5349,7 @@
     "bindIds": [
       "225"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5478,6 +5363,7 @@
     "bindIds": [
       "304"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5491,6 +5377,7 @@
     "bindIds": [
       "1055"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5504,6 +5391,7 @@
     "bindIds": [
       "1097"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5517,6 +5405,7 @@
     "bindIds": [
       "1187"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5528,6 +5417,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5539,6 +5429,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5552,6 +5443,7 @@
     "bindIds": [
       "8582"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5565,17 +5457,7 @@
     "bindIds": [
       "20388"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 3943,
-    "x": "1115.00",
-    "y": "2740.00",
-    "type": "纹章",
-    "name": "锐形纹章",
-    "intro": "需要14个槽位，获得额外黄槽",
-    "layer": "1",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5587,6 +5469,7 @@
     "intro": "",
     "layer": "1",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5597,9 +5480,260 @@
     "name": "门",
     "intro": "互通门",
     "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 8568,
+    "x": "415.00",
+    "y": "1815.00",
+    "type": "工具",
+    "name": "磁石骰",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 236,
+    "x": "705.00",
+    "y": "1795.00",
+    "type": "长椅",
+    "name": "长椅",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 8075,
+    "x": "680.00",
+    "y": "1795.00",
+    "type": "铃道",
+    "name": "铃道",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 8141,
+    "x": "672.93",
+    "y": "1982.01",
+    "type": "忆境纪念盒",
+    "name": "亿境纪念盒",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 995,
+    "x": "390.00",
+    "y": "2495.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 6684,
+    "x": "2115.00",
+    "y": "2195.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 6709,
+    "x": "1620.00",
+    "y": "2245.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 6628,
+    "x": "1324.19",
+    "y": "2337.60",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "1",
     "bindIds": [
-      "1091"
+      "6627"
     ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 216,
+    "x": "885.00",
+    "y": "2530.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "完成爆裂燧甲虫委托，需要收集3个燧晶",
+    "layer": "1",
+    "bindIds": [
+      "18924"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 1547,
+    "x": "2470.79",
+    "y": "2428.06",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 1101,
+    "x": "2740.00",
+    "y": "2430.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18445,
+    "x": "2345.00",
+    "y": "1725.00",
+    "type": "跳蚤",
+    "name": "跳蚤",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [
+      "21948"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 21948,
+    "x": "2440.00",
+    "y": "1725.00",
+    "type": "左箭头",
+    "name": "左箭头",
+    "intro": "隐藏通道",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 3951,
+    "x": "640.00",
+    "y": "2745.00",
+    "type": "易碎墙",
+    "name": "易碎墙",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 1008,
+    "x": "620.00",
+    "y": "2745.00",
+    "type": "BOSS",
+    "name": "苔藓之母x2",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [
+      "3951"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 3952,
+    "x": "620.00",
+    "y": "2730.00",
+    "type": "工具",
+    "name": "织光仪",
+    "intro": "增加灵丝再生速度",
+    "layer": "1",
+    "bindIds": [
+      "1008"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 307,
+    "x": "545.00",
+    "y": "2405.00",
+    "type": "易碎墙",
+    "name": "易碎墙",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 298,
+    "x": "625.00",
+    "y": "2405.00",
+    "type": "跳蚤",
+    "name": "跳蚤",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [
+      "307"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 1544,
+    "x": "3460.00",
+    "y": "2680.00",
+    "type": "工具",
+    "name": "丝速脚环",
+    "intro": "需要4格速度",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 1074,
+    "x": "2055.00",
+    "y": "2395.00",
+    "type": "竞技场",
+    "name": "竞技场",
+    "intro": "",
+    "layer": "1",
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5611,6 +5745,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5622,6 +5757,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5633,6 +5769,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5644,6 +5781,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5655,6 +5793,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5666,6 +5805,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5677,6 +5817,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5688,6 +5829,7 @@
     "intro": "临时长椅，仅制图师存在时",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5699,6 +5841,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5712,6 +5855,7 @@
     "bindIds": [
       "18530"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5723,6 +5867,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5734,6 +5879,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5745,6 +5891,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5756,6 +5903,7 @@
     "intro": "一次性长椅",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5767,6 +5915,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5778,6 +5927,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5789,6 +5939,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5800,6 +5951,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5811,6 +5963,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5822,6 +5975,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5833,6 +5987,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5844,6 +5999,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5855,6 +6011,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5866,6 +6023,7 @@
     "intro": "需要二段跳+织亿弦针+指挥家的旋律",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5879,6 +6037,7 @@
     "bindIds": [
       "18259"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5890,6 +6049,7 @@
     "intro": "需要飞针冲刺",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5901,6 +6061,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5912,6 +6073,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5923,6 +6085,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5934,6 +6097,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5945,6 +6109,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5956,19 +6121,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18278,
-    "x": "3184.46",
-    "y": "2636.72",
-    "type": "面甲残片",
-    "name": "面甲残片",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "18277"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5980,6 +6133,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -5991,6 +6145,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6002,6 +6157,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6013,6 +6169,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6024,19 +6181,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18287,
-    "x": "2003.18",
-    "y": "2866.57",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "18286"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6048,6 +6193,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6059,6 +6205,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6070,6 +6217,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6081,6 +6229,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6094,6 +6243,7 @@
     "bindIds": [
       "18301"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6105,6 +6255,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6118,6 +6269,7 @@
     "bindIds": [
       "18298"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6131,6 +6283,7 @@
     "bindIds": [
       "18297"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6142,6 +6295,7 @@
     "intro": "需要二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6153,6 +6307,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6164,6 +6319,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6177,6 +6333,7 @@
     "bindIds": [
       "18310"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6188,6 +6345,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6199,6 +6357,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6210,6 +6369,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6221,6 +6381,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6232,6 +6393,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6243,6 +6405,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6256,6 +6419,7 @@
     "bindIds": [
       "19645"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6267,6 +6431,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6280,6 +6445,7 @@
     "bindIds": [
       "19646"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6291,6 +6457,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6302,6 +6469,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6313,6 +6481,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6324,6 +6493,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6335,6 +6505,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6346,6 +6517,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6357,6 +6529,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6368,6 +6541,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6379,6 +6553,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6390,6 +6565,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6401,6 +6577,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6412,6 +6589,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6423,6 +6601,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6434,6 +6613,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6445,6 +6625,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6456,6 +6637,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6467,6 +6649,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6478,6 +6661,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6489,6 +6673,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6500,6 +6685,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6511,6 +6697,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6522,6 +6709,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6533,6 +6721,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6544,6 +6733,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6555,6 +6745,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6566,6 +6757,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6577,6 +6769,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6588,6 +6781,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6599,6 +6793,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6610,6 +6805,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6621,6 +6817,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6632,6 +6829,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6643,6 +6841,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6654,6 +6853,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6665,6 +6865,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6676,6 +6877,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6687,6 +6889,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6698,6 +6901,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6709,6 +6913,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6722,6 +6927,7 @@
     "bindIds": [
       "18582"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6733,6 +6939,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6746,6 +6953,7 @@
     "bindIds": [
       "18619"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6757,6 +6965,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6768,6 +6977,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6779,6 +6989,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6790,6 +7001,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6801,6 +7013,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6812,6 +7025,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6822,20 +7036,8 @@
     "name": "灵线轴碎片",
     "intro": "",
     "layer": "2",
-    "bindIds": [
-      "18432"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18432,
-    "x": "2167.55",
-    "y": "1782.76",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6847,6 +7049,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6858,6 +7061,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6869,6 +7073,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6880,6 +7085,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6891,6 +7097,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6902,6 +7109,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6913,6 +7121,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6924,6 +7133,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6934,10 +7144,8 @@
     "name": "跳蚤",
     "intro": "",
     "layer": "2",
-    "bindIds": [
-      "18559",
-      "18558"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6951,6 +7159,7 @@
     "bindIds": [
       "18472"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6964,6 +7173,7 @@
     "bindIds": [
       "18486"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6975,6 +7185,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6986,6 +7197,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -6997,6 +7209,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7008,6 +7221,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7019,6 +7233,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7030,87 +7245,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18455,
-    "x": "342.22",
-    "y": "1687.90",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18457,
-    "x": "1648.08",
-    "y": "1659.23",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18458,
-    "x": "2228.01",
-    "y": "1444.57",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "18627"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18459,
-    "x": "2115.90",
-    "y": "1065.97",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18460,
-    "x": "2559.47",
-    "y": "1295.61",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18461,
-    "x": "2489.56",
-    "y": "1635.74",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "18482"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18462,
-    "x": "3143.09",
-    "y": "1456.08",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7122,6 +7257,7 @@
     "intro": "二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7133,6 +7269,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7144,6 +7281,7 @@
     "intro": "需要织亿弦针",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7155,6 +7293,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7166,6 +7305,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7179,6 +7319,7 @@
     "bindIds": [
       "18262"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7190,6 +7331,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7201,6 +7343,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7212,6 +7355,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7223,6 +7367,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7234,6 +7379,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7245,6 +7391,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7256,6 +7403,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7269,6 +7417,7 @@
     "bindIds": [
       "18478"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7282,6 +7431,7 @@
     "bindIds": [
       "18481"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7293,6 +7443,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7304,6 +7455,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7315,6 +7467,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7326,6 +7479,7 @@
     "intro": "隐藏房间",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7337,6 +7491,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7350,6 +7505,7 @@
     "bindIds": [
       "18487"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7361,6 +7517,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7374,6 +7531,7 @@
     "bindIds": [
       "18489"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7385,6 +7543,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7398,6 +7557,7 @@
     "bindIds": [
       "18491"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7409,6 +7569,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7426,6 +7587,7 @@
       "18499",
       "18500"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7437,6 +7599,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7448,6 +7611,7 @@
     "intro": "掉落更多念珠，但受伤损失念珠",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7459,6 +7623,7 @@
     "intro": "获得额外的念珠和甲壳碎片",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7470,6 +7635,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7481,6 +7647,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7494,6 +7661,7 @@
     "bindIds": [
       "18503"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7505,6 +7673,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7516,6 +7685,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7529,6 +7699,7 @@
     "bindIds": [
       "18507"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7540,6 +7711,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7551,6 +7723,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7562,28 +7735,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18513,
-    "x": "627.37",
-    "y": "1490.47",
-    "type": "上箭头",
-    "name": "上箭头",
-    "intro": "需要二段跳",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18516,
-    "x": "922.69",
-    "y": "1592.02",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7595,6 +7747,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7606,6 +7759,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7619,6 +7773,7 @@
     "bindIds": [
       "18521"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7630,6 +7785,7 @@
     "intro": "需要二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7641,6 +7797,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7652,6 +7809,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7663,6 +7821,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7676,6 +7835,7 @@
     "bindIds": [
       "18526"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7687,6 +7847,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7700,6 +7861,7 @@
     "bindIds": [
       "18528"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7711,28 +7873,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18532,
-    "x": "1282.45",
-    "y": "1637.77",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18533,
-    "x": "1314.20",
-    "y": "1605.77",
-    "type": "水平易碎墙",
-    "name": "水平易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7744,6 +7885,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7757,6 +7899,7 @@
     "bindIds": [
       "18536"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7768,6 +7911,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7779,6 +7923,7 @@
     "intro": "需要白愈钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7790,6 +7935,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7801,6 +7947,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7814,6 +7961,7 @@
     "bindIds": [
       "18542"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7825,6 +7973,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7836,6 +7985,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7849,6 +7999,7 @@
     "bindIds": [
       "18548"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7860,6 +8011,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7871,6 +8023,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7882,6 +8035,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7893,6 +8047,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7904,6 +8059,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7917,28 +8073,7 @@
     "bindIds": [
       "18556"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18558,
-    "x": "1673.07",
-    "y": "1280.97",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18559,
-    "x": "1672.31",
-    "y": "1229.16",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7950,6 +8085,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7963,6 +8099,7 @@
     "bindIds": [
       "18562"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7974,6 +8111,7 @@
     "intro": "需要异端钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7985,6 +8123,7 @@
     "intro": "需要叛教者钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -7996,6 +8135,7 @@
     "intro": "需要怠惰钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8007,6 +8147,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8018,6 +8159,7 @@
     "intro": "需要怠惰钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8029,6 +8171,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8040,6 +8183,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8051,6 +8195,7 @@
     "intro": "需要叛教钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8062,6 +8207,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8073,6 +8219,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8084,6 +8231,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8095,6 +8243,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8106,6 +8255,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8117,6 +8267,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8130,6 +8281,7 @@
     "bindIds": [
       "18591"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8141,6 +8293,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8154,6 +8307,7 @@
     "bindIds": [
       "18594"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8165,6 +8319,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8176,6 +8331,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8187,6 +8343,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8198,6 +8355,7 @@
     "intro": "需要建筑师钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8209,6 +8367,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8222,6 +8381,7 @@
     "bindIds": [
       "18607"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8233,6 +8393,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8246,30 +8407,7 @@
     "bindIds": [
       "18609"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18612,
-    "x": "2288.00",
-    "y": "1620.00",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "18613"
-    ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18613,
-    "x": "2288.00",
-    "y": "1415.88",
-    "type": "其他",
-    "name": "电梯",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8281,6 +8419,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8292,6 +8431,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8305,6 +8445,7 @@
     "bindIds": [
       "18615"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8318,6 +8459,7 @@
     "bindIds": [
       "22616"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8329,6 +8471,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8340,6 +8483,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8353,6 +8497,7 @@
     "bindIds": [
       "18621"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8364,6 +8509,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8377,6 +8523,7 @@
     "bindIds": [
       "18623"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8388,6 +8535,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8401,6 +8549,7 @@
     "bindIds": [
       "18625"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8412,6 +8561,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8423,6 +8573,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8434,6 +8585,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8447,6 +8599,7 @@
     "bindIds": [
       "18630"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8458,6 +8611,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8471,6 +8625,7 @@
     "bindIds": [
       "18632"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8482,6 +8637,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8493,6 +8649,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8504,6 +8661,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8517,30 +8675,7 @@
     "bindIds": [
       "18639"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18641,
-    "x": "1957.70",
-    "y": "1203.90",
-    "type": "其他",
-    "name": "互通",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18642,
-    "x": "1965.70",
-    "y": "1149.40",
-    "type": "其他",
-    "name": "互通",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "18641"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8552,6 +8687,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8565,6 +8701,7 @@
     "bindIds": [
       "18643"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8576,6 +8713,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8587,6 +8725,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8598,6 +8737,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8611,6 +8751,7 @@
     "bindIds": [
       "18648"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8622,17 +8763,7 @@
     "intro": "隐藏房间",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18654,
-    "x": "2064.75",
-    "y": "1496.26",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8646,6 +8777,7 @@
     "bindIds": [
       "18657"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8657,6 +8789,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8668,6 +8801,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8679,6 +8813,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8690,6 +8825,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8703,6 +8839,7 @@
     "bindIds": [
       "18663"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8714,6 +8851,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8727,6 +8865,7 @@
     "bindIds": [
       "18665"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8738,6 +8877,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8751,6 +8891,7 @@
     "bindIds": [
       "18667"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8762,6 +8903,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8775,6 +8917,7 @@
     "bindIds": [
       "18669"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8788,6 +8931,7 @@
     "bindIds": [
       "18670"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8799,6 +8943,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8810,6 +8955,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8821,6 +8967,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8832,6 +8979,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8845,6 +8993,7 @@
     "bindIds": [
       "18675"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8856,6 +9005,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8867,6 +9017,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8880,6 +9031,7 @@
     "bindIds": [
       "18682"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8891,6 +9043,7 @@
     "intro": "驱赶蛆虫",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8902,6 +9055,7 @@
     "intro": "利用触手怪到达",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8913,6 +9067,7 @@
     "intro": "隐藏房间",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8924,6 +9079,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8937,6 +9093,7 @@
     "bindIds": [
       "18687"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8948,6 +9105,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8959,6 +9117,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8972,6 +9131,7 @@
     "bindIds": [
       "18691"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8983,6 +9143,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -8996,6 +9157,7 @@
     "bindIds": [
       "18693"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9007,6 +9169,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9018,6 +9181,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9029,6 +9193,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9040,6 +9205,7 @@
     "intro": "需要二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9051,6 +9217,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9062,6 +9229,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9073,6 +9241,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9086,6 +9255,7 @@
     "bindIds": [
       "18702"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9097,6 +9267,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9110,6 +9281,7 @@
     "bindIds": [
       "18704"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9121,6 +9293,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9134,6 +9307,7 @@
     "bindIds": [
       "18706"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9145,6 +9319,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9156,6 +9331,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9169,6 +9345,7 @@
     "bindIds": [
       "18710"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9180,6 +9357,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9193,6 +9371,7 @@
     "bindIds": [
       "18712"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9204,17 +9383,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18715,
-    "x": "2238.49",
-    "y": "992.10",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9228,6 +9397,7 @@
     "bindIds": [
       "18715"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9239,6 +9409,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9252,6 +9423,7 @@
     "bindIds": [
       "18721"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9272,6 +9444,7 @@
       "18734",
       "18735"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9283,6 +9456,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9294,6 +9468,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9305,6 +9480,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9316,6 +9492,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9327,6 +9504,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9338,6 +9516,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9349,6 +9528,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9362,6 +9542,7 @@
     "bindIds": [
       "18739"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9373,6 +9554,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9384,6 +9566,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9395,6 +9578,7 @@
     "intro": "需要简易钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9406,6 +9590,7 @@
     "intro": "推车上去关闭开关可以永久关闭织女",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9417,6 +9602,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9430,6 +9616,7 @@
     "bindIds": [
       "18745"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9441,6 +9628,7 @@
     "intro": "仅在最终觐见时开启",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9452,6 +9640,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9463,6 +9652,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9476,6 +9666,7 @@
     "bindIds": [
       "18749"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9487,6 +9678,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9498,6 +9690,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9509,6 +9702,7 @@
     "intro": "需要飞针冲刺",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9520,6 +9714,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9531,6 +9726,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9542,6 +9738,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9552,18 +9749,10 @@
     "name": "门",
     "intro": "需要击败蕾丝",
     "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 6654,
-    "x": "2240.00",
-    "y": "2105.00",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "需要二段跳",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds": [
+      "18760"
+    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9575,6 +9764,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9588,6 +9778,7 @@
     "bindIds": [
       "18541"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9599,6 +9790,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9610,6 +9802,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9623,6 +9816,7 @@
     "bindIds": [
       "19647"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9634,6 +9828,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9645,6 +9840,7 @@
     "intro": "70",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9656,6 +9852,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9667,6 +9864,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9678,6 +9876,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9689,6 +9888,7 @@
     "intro": "需要二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9702,6 +9902,7 @@
     "bindIds": [
       "18654"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9713,6 +9914,7 @@
     "intro": "需要走低语书库",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9724,6 +9926,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9734,9 +9937,8 @@
     "name": "灵线轴碎片",
     "intro": "完成愈伤良药委托",
     "layer": "2",
-    "bindIds": [
-      "18655"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9748,6 +9950,7 @@
     "intro": "移除房间",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9759,6 +9962,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9772,6 +9976,7 @@
     "bindIds": [
       "18305"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9785,6 +9990,7 @@
     "bindIds": [
       "1085"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9796,6 +10002,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9809,6 +10016,7 @@
     "bindIds": [
       "18467"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9820,6 +10028,7 @@
     "intro": "需要480念珠",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9831,6 +10040,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9844,6 +10054,7 @@
     "bindIds": [
       "18268"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9857,6 +10068,7 @@
     "bindIds": [
       "18493"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9868,6 +10080,7 @@
     "intro": "需要灵丝升腾\n或者疾风步+飞针冲刺+二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9881,6 +10094,7 @@
     "bindIds": [
       "18517"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9892,6 +10106,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9903,6 +10118,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9914,6 +10130,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9924,9 +10141,8 @@
     "name": "灵线轴碎片",
     "intro": "",
     "layer": "2",
-    "bindIds": [
-      "19659"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9938,19 +10154,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 1002,
-    "x": "1075.00",
-    "y": "2355.00",
-    "type": "工具",
-    "name": "德鲁伊双瞳",
-    "intro": "再收集4个苔莓\n需要二段跳",
-    "layer": "2",
-    "bindIds": [
-      "21782"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9962,6 +10166,7 @@
     "intro": "26",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9973,6 +10178,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9986,6 +10192,7 @@
     "bindIds": [
       "22612"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -9997,6 +10204,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10010,6 +10218,7 @@
     "bindIds": [
       "18266"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10021,6 +10230,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10032,29 +10242,8 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 22614,
-    "x": "2625.00",
-    "y": "1300.00",
-    "type": "易碎墙",
-    "name": "易碎墙",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 22615,
-    "x": "2625.00",
-    "y": "1300.00",
-    "type": "右箭头",
-    "name": "右箭头",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "22614"
+    "bindIds2": [
+      "24798"
     ],
     "dimmed": "0"
   },
@@ -10067,6 +10256,7 @@
     "intro": "30",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10078,6 +10268,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10089,6 +10280,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10102,6 +10294,7 @@
     "bindIds": [
       "18513"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10115,6 +10308,7 @@
     "bindIds": [
       "18264"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10126,6 +10320,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10137,6 +10332,7 @@
     "intro": "80",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10148,6 +10344,7 @@
     "intro": "加伤",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10161,6 +10358,7 @@
     "bindIds": [
       "1957"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10174,6 +10372,7 @@
     "bindIds": [
       "19652"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10185,6 +10384,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10196,6 +10396,7 @@
     "intro": "80",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10207,6 +10408,7 @@
     "intro": "需要制作金属",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10220,6 +10422,7 @@
     "bindIds": [
       "18650"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10233,6 +10436,7 @@
     "bindIds": [
       "23428"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10244,6 +10448,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10257,6 +10462,7 @@
     "bindIds": [
       "23430"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10268,6 +10474,7 @@
     "intro": "需要完成再寻商贾",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10279,6 +10486,7 @@
     "intro": "需要完成再寻商贾",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10290,6 +10498,7 @@
     "intro": "需要完成再寻商贾",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10301,6 +10510,7 @@
     "intro": "需要完成再寻商贾",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10312,6 +10522,7 @@
     "intro": "220",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10323,6 +10534,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10334,6 +10546,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10345,6 +10558,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10356,6 +10570,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10367,6 +10582,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10378,6 +10594,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10389,6 +10606,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10400,6 +10618,7 @@
     "intro": "需要二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10411,6 +10630,7 @@
     "intro": "60",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10422,6 +10642,7 @@
     "intro": "委托：终迹",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10435,6 +10656,7 @@
     "bindIds": [
       "18772"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10446,6 +10668,7 @@
     "intro": "需要完成跳蚤委托",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10457,17 +10680,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 19649,
-    "x": "2335.00",
-    "y": "1195.00",
-    "type": "委托",
-    "name": "精致刺针",
-    "intro": "收集10根刺针",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10479,6 +10692,7 @@
     "intro": "捐赠500念珠",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10489,9 +10703,8 @@
     "name": "蕾丝2",
     "intro": "",
     "layer": "2",
-    "bindIds": [
-      "18761"
-    ],
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10505,6 +10718,7 @@
     "bindIds": [
       "18273"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10516,6 +10730,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10529,19 +10744,7 @@
     "bindIds": [
       "23433"
     ],
-    "dimmed": "0"
-  },
-  {
-    "id": 18456,
-    "x": "1060.00",
-    "y": "1345.00",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [
-      "23434"
-    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10553,6 +10756,7 @@
     "intro": "需要二段跳",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10564,6 +10768,7 @@
     "intro": "需要异端钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10575,6 +10780,7 @@
     "intro": "需要怠惰钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10586,6 +10792,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10599,6 +10806,7 @@
     "bindIds": [
       "18577"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10610,6 +10818,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10621,6 +10830,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10634,6 +10844,7 @@
     "bindIds": [
       "18580"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10645,6 +10856,7 @@
     "intro": "需要异端钥匙",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10656,6 +10868,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10667,6 +10880,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10680,6 +10894,7 @@
     "bindIds": [
       "23441"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10691,6 +10906,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10702,6 +10918,7 @@
     "intro": "30",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10713,6 +10930,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10724,6 +10942,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10737,6 +10956,7 @@
     "bindIds": [
       "18270"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10748,6 +10968,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10761,6 +10982,7 @@
     "bindIds": [
       "18303"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10772,6 +10994,7 @@
     "intro": "60",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10783,17 +11006,7 @@
     "intro": "接取委托后击败育母",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18727,
-    "x": "2320.00",
-    "y": "1195.00",
-    "type": "委托",
-    "name": "灵丝与灵魂",
-    "intro": "需要收集25只跳蚤并完成终迹委托",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10805,17 +11018,7 @@
     "intro": "苍白油",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18277,
-    "x": "3166.46",
-    "y": "2665.72",
-    "type": "上箭头",
-    "name": "上箭头",
-    "intro": "需要飞针冲刺",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10829,6 +11032,7 @@
     "bindIds": [
       "18505"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10842,6 +11046,7 @@
     "bindIds": [
       "18511"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10855,6 +11060,7 @@
     "bindIds": [
       "18519"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10868,6 +11074,7 @@
     "bindIds": [
       "18628"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10881,6 +11088,7 @@
     "bindIds": [
       "18635"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10894,6 +11102,7 @@
     "bindIds": [
       "18689"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10907,6 +11116,7 @@
     "bindIds": [
       "18708"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10920,6 +11130,7 @@
     "bindIds": [
       "18737"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10933,6 +11144,7 @@
     "bindIds": [
       "18756"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10944,6 +11156,7 @@
     "intro": "使用16个纪念盒",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10955,6 +11168,7 @@
     "intro": "捐赠300念珠",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10966,6 +11180,7 @@
     "intro": "需要制作金属，漂浮时旋转刀刃",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10977,6 +11192,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10988,6 +11204,7 @@
     "intro": "化为小蜘蛛",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -10999,6 +11216,7 @@
     "intro": "切割敌人",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11010,6 +11228,10 @@
     "intro": "损坏的工具修复，机枪？",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [
+      "3895",
+      "18531"
+    ],
     "dimmed": "0"
   },
   {
@@ -11021,6 +11243,7 @@
     "intro": "需要解锁工具",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11032,6 +11255,7 @@
     "intro": "完成终迹委托后",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11043,6 +11267,7 @@
     "intro": "需要26个槽位，获得额外蓝槽",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11061,6 +11286,7 @@
       "24795",
       "24797"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11072,6 +11298,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11083,6 +11310,7 @@
     "intro": "额外槽位32个",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11094,17 +11322,7 @@
     "intro": "生命值满时减少丝绸消耗",
     "layer": "2",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18515,
-    "x": "289.15",
-    "y": "1475.06",
-    "type": "工具",
-    "name": "螺切刀",
-    "intro": "",
-    "layer": "2",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11116,6 +11334,7 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11127,6 +11346,253 @@
     "intro": "",
     "layer": "2",
     "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18455,
+    "x": "342.22",
+    "y": "1687.90",
+    "type": "忆境纪念盒",
+    "name": "亿境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18456,
+    "x": "1060.00",
+    "y": "1345.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [
+      "23434"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18457,
+    "x": "1648.08",
+    "y": "1659.23",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18459,
+    "x": "2115.90",
+    "y": "1065.97",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18458,
+    "x": "2228.01",
+    "y": "1444.57",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [
+      "18627"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18461,
+    "x": "2489.56",
+    "y": "1635.74",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [
+      "18482"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 6654,
+    "x": "2240.00",
+    "y": "2105.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "需要二段跳",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18287,
+    "x": "2005.00",
+    "y": "2865.00",
+    "type": "忆境纪念盒",
+    "name": "亿境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [
+      "18286"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18460,
+    "x": "2559.47",
+    "y": "1295.61",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 3943,
+    "x": "1115.00",
+    "y": "2740.00",
+    "type": "纹章",
+    "name": "锐形纹章",
+    "intro": "需要14个槽位，获得额外黄槽",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 1002,
+    "x": "1075.00",
+    "y": "2370.00",
+    "type": "工具",
+    "name": "德鲁伊双瞳",
+    "intro": "再收集4个苔莓\n需要二段跳",
+    "layer": "2",
+    "bindIds": [
+      "15066"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18462,
+    "x": "3140.00",
+    "y": "1455.00",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 19649,
+    "x": "2335.00",
+    "y": "1195.00",
+    "type": "委托",
+    "name": "精致刺针",
+    "intro": "收集10根刺针。第三幕必须接取完成",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18727,
+    "x": "2320.00",
+    "y": "1195.00",
+    "type": "委托",
+    "name": "灵丝与灵魂",
+    "intro": "将跳蚤移至腐殖渠，完成终迹委托，完成所有捐赠任务",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18641,
+    "x": "1960.00",
+    "y": "1200.00",
+    "type": "其他",
+    "name": "互通",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [
+      "18642"
+    ],
+    "dimmed": "0"
+  },
+  {
+    "id": 18642,
+    "x": "1960.00",
+    "y": "1150.00",
+    "type": "其他",
+    "name": "互通",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [
+      "18641"
+    ],
+    "dimmed": "0"
+  },
+  {
+    "id": 25141,
+    "x": "2621.99",
+    "y": "1661.47",
+    "type": "水平易碎墙",
+    "name": "通道",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 25144,
+    "x": "2621.99",
+    "y": "1661.47",
+    "type": "下箭头",
+    "name": "下箭头",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [
+      "25141"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18278,
+    "x": "3185.00",
+    "y": "2645.00",
+    "type": "面甲残片",
+    "name": "面甲残片",
+    "intro": "",
+    "layer": "2",
+    "bindIds": [
+      "18277"
+    ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11138,6 +11604,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11149,6 +11616,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11160,6 +11628,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11171,6 +11640,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11182,6 +11652,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11193,6 +11664,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11204,6 +11676,7 @@
     "intro": "需要永绽花",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11215,6 +11688,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11226,6 +11700,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11237,6 +11712,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11248,6 +11724,7 @@
     "intro": "完成高级炼金委托",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11259,6 +11736,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11270,6 +11748,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11281,6 +11760,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11292,6 +11772,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11303,6 +11784,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11314,6 +11796,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11325,6 +11808,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11336,6 +11820,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11347,6 +11832,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11358,6 +11844,7 @@
     "intro": "用弧爪击中4个目标",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11369,6 +11856,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11380,6 +11868,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11391,6 +11880,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11402,6 +11892,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11413,6 +11904,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11424,6 +11916,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11435,6 +11928,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11446,6 +11940,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11457,6 +11952,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11470,6 +11966,7 @@
     "bindIds": [
       "18800"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11481,6 +11978,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11494,6 +11992,7 @@
     "bindIds": [
       "18803"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11505,6 +12004,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11516,6 +12016,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11527,6 +12028,7 @@
     "intro": "需要隐蔽猎手委托",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11538,6 +12040,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11549,17 +12052,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18815,
-    "x": "3209.42",
-    "y": "2316.12",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "",
-    "layer": "3",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11571,6 +12064,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11582,6 +12076,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11593,6 +12088,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11604,6 +12100,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11615,6 +12112,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11626,6 +12124,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11637,6 +12136,7 @@
     "intro": "需要织亿弦针",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11648,6 +12148,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11659,6 +12160,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11670,6 +12172,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11681,6 +12184,7 @@
     "intro": "需要深邃挽歌",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11692,6 +12196,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11703,6 +12208,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11714,6 +12220,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11725,6 +12232,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11736,6 +12244,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11747,6 +12256,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11758,6 +12268,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11769,6 +12280,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11780,6 +12292,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11791,6 +12304,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11802,6 +12316,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11813,6 +12328,7 @@
     "intro": "需要激活3喷泉",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11824,6 +12340,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11835,6 +12352,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11846,6 +12364,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11857,6 +12376,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11868,6 +12388,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11879,6 +12400,7 @@
     "intro": "收集3个雕像精华\n收集2个花精\n击败苜鹿\n恢复圣地",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11890,6 +12412,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11901,6 +12424,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11912,6 +12436,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11923,6 +12448,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11934,6 +12460,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11945,17 +12472,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18863,
-    "x": "1644.97",
-    "y": "2174.56",
-    "type": "亿境纪念盒",
-    "name": "亿境纪念盒",
-    "intro": "需要灵丝升腾",
-    "layer": "3",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11967,6 +12484,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11978,6 +12496,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -11989,6 +12508,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12000,6 +12520,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12011,6 +12532,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12022,28 +12544,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18872,
-    "x": "432.65",
-    "y": "1812.27",
-    "type": "BOSS",
-    "name": "失心加蒙德",
-    "intro": "",
-    "layer": "3",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18873,
-    "x": "433.25",
-    "y": "1833.27",
-    "type": "任务物品",
-    "name": "英灵忆痕",
-    "intro": "击败失心加蒙德，钟居收集品",
-    "layer": "3",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12055,6 +12556,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12066,6 +12568,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12079,6 +12582,7 @@
     "bindIds": [
       "18875"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12090,6 +12594,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12103,6 +12608,7 @@
     "bindIds": [
       "18877"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12114,6 +12620,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12125,6 +12632,7 @@
     "intro": "用织亿弦针唤醒",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12136,6 +12644,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12147,6 +12656,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12160,6 +12670,7 @@
     "bindIds": [
       "18883"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12171,6 +12682,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12182,6 +12694,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12193,6 +12706,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12204,6 +12718,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12215,6 +12730,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12226,6 +12742,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12237,6 +12754,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12248,6 +12766,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12259,6 +12778,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12270,6 +12790,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12283,6 +12804,7 @@
     "bindIds": [
       "18900"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12294,6 +12816,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12305,6 +12828,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12316,6 +12840,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12327,6 +12852,7 @@
     "intro": "需要灵丝升腾，找到7个蘑菇先生",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12338,6 +12864,7 @@
     "intro": "需要击败圣所守护者赛斯\n与赛斯1和赛斯2对话\n反超小游戏记录",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12349,6 +12876,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12360,6 +12888,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12371,6 +12900,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12382,6 +12912,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12393,6 +12924,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12404,6 +12936,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12415,50 +12948,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18918,
-    "x": "1917.27",
-    "y": "562.42",
-    "type": "长椅",
-    "name": "长椅",
-    "intro": "",
-    "layer": "3",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18919,
-    "x": "1933.40",
-    "y": "511.67",
-    "type": "其他",
-    "name": "无名镇",
-    "intro": "",
-    "layer": "3",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18920,
-    "x": "1952.40",
-    "y": "509.92",
-    "type": "任务物品",
-    "name": "墟野忆痕",
-    "intro": "",
-    "layer": "3",
-    "bindIds": [],
-    "dimmed": "0"
-  },
-  {
-    "id": 18921,
-    "x": "1897.27",
-    "y": "469.88",
-    "type": "NPC",
-    "name": "蘑菇先生7",
-    "intro": "",
-    "layer": "3",
-    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12470,6 +12960,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12481,6 +12972,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12492,6 +12984,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12503,6 +12996,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12514,6 +13008,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12525,6 +13020,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12536,6 +13032,7 @@
     "intro": "需要灵丝升腾",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12549,6 +13046,7 @@
     "bindIds": [
       "18658"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12562,6 +13060,7 @@
     "bindIds": [
       "18747"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12575,6 +13074,7 @@
     "bindIds": [
       "18903"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12586,6 +13086,7 @@
     "intro": "需要灵丝升腾，3个机芯零件",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12597,6 +13098,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12608,6 +13110,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12619,6 +13122,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12632,6 +13136,7 @@
     "bindIds": [
       "18792"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12645,6 +13150,7 @@
     "bindIds": [
       "24804"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12656,6 +13162,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12669,6 +13176,7 @@
     "bindIds": [
       "18794"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12680,6 +13188,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12691,6 +13200,7 @@
     "intro": "完成委托暗蚀之心",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12702,6 +13212,7 @@
     "intro": "完成委托隐蔽猎手",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12713,6 +13224,7 @@
     "intro": "需要遇到加蒙德3次接取，击败失心加蒙德，奖励英灵忆痕",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12724,6 +13236,7 @@
     "intro": "击败针姬，奖励针徽",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12735,6 +13248,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12746,6 +13260,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12757,6 +13272,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12768,6 +13284,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12779,6 +13296,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12790,6 +13308,7 @@
     "intro": "击败针姬",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12801,6 +13320,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12812,6 +13332,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12823,6 +13344,7 @@
     "intro": "比赛3奖励面甲残片\n比赛4奖励飞毛腿忆痕",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12834,6 +13356,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12847,6 +13370,7 @@
     "bindIds": [
       "18811"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12860,6 +13384,7 @@
     "bindIds": [
       "18810"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12871,6 +13396,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12882,6 +13408,7 @@
     "intro": "需要将腐囊陪审团图鉴刷到银标",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12895,6 +13422,7 @@
     "bindIds": [
       "18830"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12908,6 +13436,7 @@
     "bindIds": [
       "18831"
     ],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12919,6 +13448,7 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   },
   {
@@ -12930,6 +13460,93 @@
     "intro": "",
     "layer": "3",
     "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18872,
+    "x": "430.00",
+    "y": "1815.00",
+    "type": "BOSS",
+    "name": "失心加蒙德",
+    "intro": "",
+    "layer": "3",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18873,
+    "x": "430.00",
+    "y": "1800.00",
+    "type": "任务物品",
+    "name": "英灵忆痕",
+    "intro": "击败失心加蒙德，钟居收集品",
+    "layer": "3",
+    "bindIds": [
+      "18872"
+    ],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18863,
+    "x": "1644.97",
+    "y": "2174.56",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "需要灵丝升腾",
+    "layer": "3",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18815,
+    "x": "3209.42",
+    "y": "2316.12",
+    "type": "忆境纪念盒",
+    "name": "忆境纪念盒",
+    "intro": "",
+    "layer": "3",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18918,
+    "x": "1920.00",
+    "y": "560.00",
+    "type": "长椅",
+    "name": "长椅",
+    "intro": "",
+    "layer": "3",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18921,
+    "x": "1920.00",
+    "y": "510.00",
+    "type": "NPC",
+    "name": "蘑菇先生7",
+    "intro": "",
+    "layer": "3",
+    "bindIds": [],
+    "bindIds2": [],
+    "dimmed": "0"
+  },
+  {
+    "id": 18920,
+    "x": "1950.00",
+    "y": "510.00",
+    "type": "任务物品",
+    "name": "墟野忆痕",
+    "intro": "",
+    "layer": "3",
+    "bindIds": [],
+    "bindIds2": [],
     "dimmed": "0"
   }
 ]
